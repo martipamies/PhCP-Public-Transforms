@@ -10,6 +10,11 @@
 	<map oid="2.16.840.1.113883.5.1008" uri="http://hl7.org/fhir/v3/NullFlavor"/>
 	<map oid="2.16.840.1.113883.5.111" uri="http://hl7.org/fhir/v3/RoleCode"/>
 	<map oid="2.16.840.1.113883.6.101" uri="http://nucc.org/provider-taxonomy"/>
+	<map oid="2.16.840.1.113883.6.2" uri="http://terminology.hl7.org/CodeSystem/icd9cm"/>
+	<map oid="2.16.840.1.113883.6.90" uri="http://hl7.org/fhir/sid/icd-10-cm"/>
+	<map oid="0.4.0.127.0.16.1.1.2.1" uri="http://fhir.de/CodeSystem/edqm"/>
+	<map oid="2.16.840.1.113883.5.1150.1" uri="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+	 
 	<!-- Identifier Systems -->
 	<map oid="2.16.840.1.113883.4.6" uri="http://hl7.org/fhir/sid/us-npi"/>
 	<map oid="2.16.840.1.113883.4.1" uri="http://hl7.org/fhir/sid/us-ssn"/>

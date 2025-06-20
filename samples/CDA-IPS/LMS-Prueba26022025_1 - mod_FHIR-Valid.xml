@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+   <identifier>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:uuid:5a1ffe28-80fb-4c0b-9d81-66da00b55280"/>
+   </identifier>
+   <type value="document"/>
+   <timestamp value="2025-04-08T14:30:00+01:00"/>
+   <entry>
+      <fullUrl value="urn:uuid:45b37326-9b40-4039-bf40-e9cce9d57d34"/>
+      <resource>
+         <Composition>
+            <meta>
+               <profile value="http://hl7.org/fhir/uv/ips/StructureDefinition/Composition-uv-ips|1.1.0"/>
+            </meta>
+            <language value="en-GB"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document Id</span>
+                           </td>
+                           <td class="td_header_role_value">47461740495269860 2.16.724.4.9.400.1</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document Created:</span>
+                           </td>
+                           <td class="td_header_role_value">February 25, 2025, 15:54:29 +0100 </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody><!--documentationOf/serviceEvent-->
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Care provision</span>
+                           </td>
+                           <td class="td_header_role_value">Service Event from November 1, 1947  to ,  </td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Performer (primary care provider)</span>
+                           </td>
+                           <td class="td_header_role_value">Departament de Salut</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody><!--Author-->
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Author</span>
+                           </td>
+                           <td class="td_header_role_value">Història Clínica Compartida de Catalunya</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">
+                              <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody><!--participant-->
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Personal relationship</span>
+                           </td>
+                           <td class="td_header_role_value">PCPDepartament de Salut<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">
+                              <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Legal authenticator</span>
+                           </td>
+                           <td class="td_header_role_value">Manel Balcells of Departament de Salut signed at February 25, 2025, 15:54:29 +0100 </td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">
+                              <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document maintained by</span>
+                           </td>
+                           <td class="td_header_role_value">Departament de Salut</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">Travessera De Les Corts, 131-159 (pavelló Ave Maria)<br/>Barcelona, Barcelona 08028, ES<br/>Tel:  +34932272900<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:45b37326-9b40-4039-bf40-e9cce9d57d34"/>
+            </identifier>
+            <status value="final"/>
+            <type>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="60591-5"/>
+                  <display value="Patient Summary"/>
+               </coding>
+            </type>
+            <subject>
+               <reference value="urn:uuid:1e1c354e-fb4c-4cb4-9b3c-6798aba4c267"/>
+            </subject>
+            <date value="2025-02-25T15:54:00+01:00"/>
+            <author>
+               <reference value="urn:uuid:c3735dd0-7ef0-4131-b623-83d19e5fdd05"/>
+            </author>
+            <title value="European Patient Summary"/>
+            <confidentiality value="N"/>
+            <attester>
+               <mode value="legal"/>
+               <time value="2025-02-25T15:54:00+01:00"/>
+               <party>
+                  <reference value="urn:uuid:e505dd38-6716-41a8-b62e-019ad8441776"/>
+               </party>
+            </attester>
+            <custodian>
+               <reference value="urn:uuid:89a0cd55-110c-47b7-9b22-145540d769aa"/>
+            </custodian>
+            <relatesTo>
+               <code value="transforms"/>
+               <targetIdentifier>
+                  <system value="urn:oid:2.16.724.4.9.400.1"/>
+                  <value value="47461740495269860"/>
+               </targetIdentifier>
+            </relatesTo>
+            <event><!--Add CCDA-on-FHIR-Performer extension after C-CDA on FHIR is published-->
+               <extension url="http://hl7.org/fhir/ccda/StructureDefinition/CCDA-on-FHIR-Performer">
+                  <valueReference>
+                     <reference value="urn:uuid:4462685c-aa5b-47f3-a3d8-8b458c240292"/>
+                  </valueReference>
+               </extension>
+               <period>
+                  <start value="1947-11-01"/>
+               </period>
+            </event>
+            
+            <!-- Medication Section -->
+            <section>
+               <title value="Medication Summary"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="10160-0"/>
+                     <display value="Medication Summary"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="generated"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <p>
+                        <span class="Bold">Currently active medications</span>
+                     </p>
+                     <p>
+                        <span class="Bold">Long-term treatments</span>
+                     </p>
+                     <p>
+                        <span class="Bold">Just in case treatments</span>
+                     </p>
+                     <table>
+                        <tbody>
+                           <tr>
+                              <th>
+                                 <span>Product and</span>
+                                 <br/>
+                                 <span>dose form</span>
+                              </th>
+                              <th>
+                                 <span>Dose and</span>
+                                 <br/>
+                                 <span>frequency</span>
+                              </th>
+                              <th>Route</th>
+                              <th>Duration</th>
+                              <th>Comments</th>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <span>PARACETAMOL NORMON 500MG 20 COMPRIMIDOS EFG</span>
+                                 <br/>
+                                 <span>Tablet</span>
+                              </td>
+                              <td>
+                                 <span>1 Tablets</span>
+                                 <br/>
+                                 <span>1 DAYS</span>
+                              </td>
+                              <td>
+                                 <span>Oral use</span>
+                              </td>
+                              <td>
+                                 <span>From 2025-01-08</span>
+                                 <br/>
+                                 <span>to 2025-05-14</span>
+                              </td>
+                              <td>
+                                 <span>text de proba</span>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.4-->
+               <entry>
+                  <reference value="urn:uuid:e9a7f715-6fd4-4a7c-8d64-02d39ac6fe6d"/>
+               </entry>
+            </section>
+            
+            <!-- Allergies -->
+            <section>
+               <title value="Allergies and Other Adverse Reactions"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="48765-2"/>
+                     <display value="Alergies, adverse reactions, alerts"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="generated"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <span>No known allergies</span>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.5-->
+               <entry>
+                  <reference value="urn:uuid:9773474e-3162-4082-921b-ad5b82821f51"/>
+               </entry>
+            </section>
+            
+            
+            <!-- Active Problems -->
+            <section>
+               <title value="Active Problems"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="11450-4"/>
+                     <display value="Problem list"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="additional"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <table>
+                        <tbody>
+                           <tr>
+                              <th>Problem</th>
+                              <th>Onset time</th>
+                           </tr>
+                           <tr>
+                              <td>ICD_9_CM 460 Acute nasopharyngitis [common cold]</td>
+                              <td>2022-11-21</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.7-->
+               <entry>
+                  <reference value="urn:uuid:8a93060f-e4a5-4fb3-857c-bcb8cda0c0e4"/>
+               </entry>
+            </section>
+         </Composition>
+      </resource>
+   </entry>
+   <!-- Patient Entry -->
+   <entry>
+      <fullUrl value="urn:uuid:1e1c354e-fb4c-4cb4-9b3c-6798aba4c267"/>
+      <resource>
+         <Patient>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h1>Planella, Josefa</h1>
+                  <p>Address: Cr Bassa 31<br/>Torrelameu<br/>ES<br/>25138</p>
+                  <p>Gender: F</p>
+                  <p>Birthdate: 1947-11-01</p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:oid:2.16.724.4.40"/>
+               <value value="BBBBBBBBBZ219621"/>
+            </identifier>
+            <identifier>
+               <system value="urn:oid:2.16.724.4.41"/>
+               <value value="PLMO1471101002"/>
+            </identifier>
+            <identifier>
+               <system value="urn:oid:1.3.6.1.4.1.19126.3"/>
+               <value value="78049696R"/>
+            </identifier>
+            <name>
+               <text value="Planella, Josefa"/>
+               <family value="Planella"/>
+               <given value="Josefa"/>
+            </name>
+            <!--Omitting null telecom-->
+            <gender value="female"/>
+            <birthDate value="1947-11-01"/>
+            <address>
+               <use value="home"/>
+               <line value="Cr Bassa 31"/>
+               <city value="Torrelameu"/>
+               <state value="ES"/>
+               <postalCode value="25138"/>
+            </address>
+         </Patient>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:c3735dd0-7ef0-4131-b623-83d19e5fdd05"/>
+      <resource>
+         <Practitioner><!--ClinicalDocument[cda:id[@root="2.16.724.4.9.400.1"]]/author-->
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <p>---TODO: ID info---</p>
+                  <p>Telephone: </p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:oid:2.16.724.4.9.400.1"/>
+            </identifier>
+            <!--Omitting null telecom-->
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:4462685c-aa5b-47f3-a3d8-8b458c240292"/>
+      <resource>
+         <Practitioner><!--serviceEvent/performer-->
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <p>---TODO: ID info---</p>
+                  <p>Telephone: </p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:oid:2.16.724.4.9.400.1"/>
+            </identifier>
+            <!--Omitting null telecom-->
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:89a0cd55-110c-47b7-9b22-145540d769aa"/>
+      <resource>
+         <Organization>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:oid:2.16.724.4.9.400.1"/>
+            </identifier>
+            <name value="Departament de Salut"/>
+            <telecom>
+               <system value="phone"/>
+               <value value="+34932272900"/>
+               <use value="work"/>
+            </telecom>
+            <address>
+               <line value="Travessera De Les Corts, 131-159 (pavelló Ave Maria)"/>
+               <city value="Barcelona"/>
+               <state value="Barcelona"/>
+               <postalCode value="08028"/>
+               <country value="ES"/>
+            </address>
+         </Organization>
+      </resource>
+   </entry>
+   <!-- legalAuthenticator Entry -->
+   <entry>
+      <fullUrl value="urn:uuid:e505dd38-6716-41a8-b62e-019ad8441776"/>
+      <resource>
+         <Practitioner><!--ClinicalDocument[cda:id[@root="2.16.724.4.9.400.1"]]/legalAuthenticator-->
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <p>Name: Balcells, Manel</p>
+                  <p>---TODO: ID info---</p>
+                  <p>Telephone: </p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:oid:2.16.724.4.9.400.1"/>
+            </identifier>
+            <name>
+               <text value="Balcells, Manel"/>
+               <family value="Balcells"/>
+               <given value="Manel"/>
+            </name>
+            <!--Omitting null telecom-->
+         </Practitioner>
+      </resource>
+   </entry>
+   <!--No template match for 2.16.840.1.113883.10.22.4.4-->
+   <!--No template match for 2.16.840.1.113883.10.22.4.5-->
+   <!--No template match for 2.16.840.1.113883.10.22.4.15-->
+   <!--No template match for 2.16.840.1.113883.10.22.4.7-->
+   <!--No template match for 2.16.840.1.113883.10.22.4.7-->
+   
+   <!-- Medication Entry (not known) -->
+   <entry>
+      <fullUrl value="urn:uuid:e9a7f715-6fd4-4a7c-8d64-02d39ac6fe6d"/>
+      <resource>
+         <MedicationRequest>
+            <id value="e9a7f715-6fd4-4a7c-8d64-02d39ac6fe6d"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AllergyIntolerance</b><a name="eumfh-39-07-1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AllergyIntolerance &quot;eumfh-39-07-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/4.0.0/CodeSystem-allergyintolerance-clinical.html">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/4.0.0/CodeSystem-allergyintolerance-verification.html">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>code</b>: No known allergies <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-absent-unknown-uv-ips.html">Absent and Unknown Data - IPS</a>#no-known-allergies)</span></p><p><b>patient</b>: <a href="Patient-eumfh-39-07.html">Patient/eumfh-39-07: Alexander Heig (inject 39-07)</a> &quot; HEIG&quot;</p><p><b>onset</b>: </p></div>
+            </text>
+            <contained> 
+               <Medication> 
+                  <id value="med0310"/> 
+                  <code>
+                     <coding>
+                        <system
+                           value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+                        <code value="no-medication-info"/>
+                        <display value="No information about medications"/>
+                     </coding>
+                  </code>
+               </Medication> 
+            </contained> 
+            <status value="completed"/>
+            <intent value="order"/>
+            <medicationReference>  <!--    Linked to a RESOURCE Medication    -->
+               <reference value="#med0310"/> 
+            </medicationReference>  
+            <subject>
+               <reference value="urn:uuid:1e1c354e-fb4c-4cb4-9b3c-6798aba4c267"/>
+            </subject>
+         </MedicationRequest>
+      </resource>
+   </entry>
+
+   
+   <!-- Allergies Entry (not known) -->
+   <entry>
+      <fullUrl value="urn:uuid:9773474e-3162-4082-921b-ad5b82821f51"/>
+      <resource>
+         <AllergyIntolerance>
+            <id value="9773474e-3162-4082-921b-ad5b82821f51"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AllergyIntolerance</b><a name="eumfh-39-07-1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AllergyIntolerance &quot;eumfh-39-07-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/4.0.0/CodeSystem-allergyintolerance-clinical.html">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/4.0.0/CodeSystem-allergyintolerance-verification.html">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>code</b>: No known allergies <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-absent-unknown-uv-ips.html">Absent and Unknown Data - IPS</a>#no-known-allergies)</span></p><p><b>patient</b>: <a href="Patient-eumfh-39-07.html">Patient/eumfh-39-07: Alexander Heig (inject 39-07)</a> &quot; HEIG&quot;</p><p><b>onset</b>: </p></div>
+            </text>
+            <clinicalStatus>
+               <coding>
+                  <system
+                     value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <verificationStatus>
+               <coding>
+                  <system
+                     value="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"/>
+                  <code value="confirmed"/>
+               </coding>
+            </verificationStatus>
+            <code>
+               <coding>
+                  <system
+                     value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+                  <code value="no-known-allergies"/>
+                  <display value="No known allergies"/>
+               </coding>
+            </code>
+            <patient>
+               <reference value="urn:uuid:1e1c354e-fb4c-4cb4-9b3c-6798aba4c267"/>
+            </patient>
+         </AllergyIntolerance>
+      </resource>
+   </entry>
+   
+   <!-- Problem Entry (not known) -->
+   <entry>
+      <fullUrl value="urn:uuid:8a93060f-e4a5-4fb3-857c-bcb8cda0c0e4"/>
+      <resource>
+         <Condition>
+            <id value="8a93060f-e4a5-4fb3-857c-bcb8cda0c0e4"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: AllergyIntolerance</b><a name="eumfh-39-07-1"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource AllergyIntolerance &quot;eumfh-39-07-1&quot; </p></div><p><b>clinicalStatus</b>: Active <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/4.0.0/CodeSystem-allergyintolerance-clinical.html">AllergyIntolerance Clinical Status Codes</a>#active)</span></p><p><b>verificationStatus</b>: Confirmed <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/4.0.0/CodeSystem-allergyintolerance-verification.html">AllergyIntolerance Verification Status</a>#confirmed)</span></p><p><b>code</b>: No known allergies <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-absent-unknown-uv-ips.html">Absent and Unknown Data - IPS</a>#no-known-allergies)</span></p><p><b>patient</b>: <a href="Patient-eumfh-39-07.html">Patient/eumfh-39-07: Alexander Heig (inject 39-07)</a> &quot; HEIG&quot;</p><p><b>onset</b>: </p></div>
+            </text>
+            <clinicalStatus>
+               <coding>
+                  <system
+                     value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <code>
+               <coding>
+                  <system
+                     value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+                  <code value="no-problem-info"/>
+                  <display value="No information about current problems"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:1e1c354e-fb4c-4cb4-9b3c-6798aba4c267"/>
+            </subject>
+         </Condition>
+      </resource>
+   </entry>
+   
+   
+</Bundle>

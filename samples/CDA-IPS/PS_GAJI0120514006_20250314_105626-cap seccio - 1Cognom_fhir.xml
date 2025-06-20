@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+   <identifier>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:uuid:ec5eaf96-951b-4f63-bd25-248f8bd7cc0d"/>
+   </identifier>
+   <type value="document"/>
+   <timestamp value="2025-06-06T14:55:43.8313347+02:00"/>
+   <entry>
+      <fullUrl value="urn:uuid:a9a4fb62-a7c6-4503-ae70-c4cf5efde20f"/>
+      <resource>
+         <Composition>
+            <language value="en-GB"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document Id</span>
+                           </td>
+                           <td class="td_header_role_value">119795371741946186214 2.16.724.4.9.400.1</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document Created:</span>
+                           </td>
+                           <td class="td_header_role_value">March 14, 2025, 10:56:26 +0100 </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody><!--documentationOf/serviceEvent-->
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Care provision</span>
+                           </td>
+                           <td class="td_header_role_value">Service Event from May 14, 2012  to ,  </td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Performer (primary care provider)</span>
+                           </td>
+                           <td class="td_header_role_value">Departament de Salut</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody><!--Author-->
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Author</span>
+                           </td>
+                           <td class="td_header_role_value">Història Clínica Compartida de Catalunya</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">
+                              <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody><!--participant-->
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Personal relationship</span>
+                           </td>
+                           <td class="td_header_role_value">PCPDepartament de Salut<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">
+                              <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Legal authenticator</span>
+                           </td>
+                           <td class="td_header_role_value">Olga  Pané of Departament de Salut signed at March 14, 2025, 10:56:26 +0100 </td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">
+                              <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document maintained by</span>
+                           </td>
+                           <td class="td_header_role_value">Departament de Salut</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">Travessera De Les Corts, 131-159 (pavelló Ave Maria)<br/>Barcelona, Barcelona 08028, ES<br/>Tel:  +34932272900<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:a9a4fb62-a7c6-4503-ae70-c4cf5efde20f"/>
+            </identifier>
+            <status value="final"/>
+            <type>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="60591-5"/>
+                  <display value="Patient Summary"/>
+               </coding>
+            </type>
+            <subject>
+               <reference value="urn:uuid:a6d3ab64-eea8-441d-8f01-2d7ffb260d4a"/>
+            </subject>
+            <date value="2025-03-14T10:56:00+01:00"/>
+            <author>
+               <reference value="urn:uuid:a0b080ed-906d-4bc5-ac6b-55635625d723"/>
+            </author>
+            <title value="European Patient Summary"/>
+            <confidentiality value="N"/>
+            <attester>
+               <mode value="legal"/>
+               <time value="2025-03-14T10:56:00+01:00"/>
+               <party>
+                  <reference value="urn:uuid:1edebfeb-520d-441c-853a-8d99e96fb803"/>
+               </party>
+            </attester>
+            <custodian>
+               <reference value="urn:uuid:6a5a77f9-f410-489e-866a-218b17027bcb"/>
+            </custodian>
+            <relatesTo>
+               <code value="transforms"/>
+               <targetIdentifier>
+                  <system value="urn:oid:2.16.724.4.9.400.1"/>
+                  <value value="119795371741946186214"/>
+               </targetIdentifier>
+            </relatesTo>
+            <event>
+               <period>
+                  <start value="2012-05-14"/>
+               </period>
+            </event>
+            <section>
+               <title value="Medication Summary"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="10160-0"/>
+                     <display value="Medication Summary"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="generated"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <span>No known medications.</span>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.4-->
+               <entry>
+                  <reference value="urn:uuid:ef49221d-4c73-4e6e-a453-0ab3f75288bc"/>
+               </entry>
+            </section>
+            <section>
+               <title value="Allergies and Other Adverse Reactions"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="48765-2"/>
+                     <display value="Alergies, adverse reactions, alerts"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="generated"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <span>No known allergies</span>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.5-->
+               <entry>
+                  <reference value="urn:uuid:eab5424f-1f19-4cae-9150-f5c78f798cdc"/>
+               </entry>
+            </section>
+            <section>
+               <title value="History of Past Illness"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="11348-0"/>
+                     <display value="History of Past Illness"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="additional"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <span>No known Past Illness</span>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.7-->
+               <entry>
+                  <reference value="urn:uuid:11de4dc1-9ab1-42ae-b0e8-bdc69c8ebffa"/>
+               </entry>
+            </section>
+            <section>
+               <title value="Active Problems"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="11450-4"/>
+                     <display value="Problem list"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="additional"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <span>No known Active Problems</span>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.7-->
+               <entry>
+                  <reference value="urn:uuid:e35cc268-c7ba-4e77-b590-a653c581423e"/>
+               </entry>
+            </section>
+         </Composition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:a6d3ab64-eea8-441d-8f01-2d7ffb260d4a"/>
+      <resource>
+         <Patient>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h1>Garcia, Marti</h1>
+                  <p>Address: Cr Sinai 4  N    1 1<br/>Barcelona<br/>ES<br/>08035</p>
+                  <p>Gender: M</p>
+                  <p>Birthdate: 2012-05-14</p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:oid:2.16.724.4.40"/>
+               <value value="BBBBBBBBDK963670"/>
+            </identifier>
+            <identifier>
+               <system value="urn:oid:2.16.724.4.41"/>
+               <value value="GAJI0120514006"/>
+            </identifier>
+            <identifier>
+               <system value="urn:oid:1.3.6.1.4.1.19126.3"/>
+               <value value="24488401W"/>
+            </identifier>
+            <name>
+               <text value="Garcia , Marti"/>
+               <family value="Garcia"/>
+               <given value="Marti"/>
+            </name>
+            <!--Omitting null telecom-->
+            <gender value="male"/>
+            <birthDate value="2012-05-14"/>
+            <address>
+               <use value="home"/>
+               <line value="Cr Sinai 4 N 1 1"/>
+               <city value="Barcelona"/>
+               <state value="ES"/>
+               <postalCode value="08035"/>
+            </address>
+         </Patient>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:a0b080ed-906d-4bc5-ac6b-55635625d723"/>
+      <resource>
+         <Practitioner><!--ClinicalDocument[cda:id[@root="2.16.724.4.9.400.1"]]/author-->
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <p>---TODO: ID info---</p>
+                  <p>Telephone: </p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:oid:2.16.724.4.9.400.1"/>
+            </identifier>
+            <!--Omitting null telecom-->
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:6a5a77f9-f410-489e-866a-218b17027bcb"/>
+      <resource>
+         <Organization>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:oid:2.16.724.4.9.400.1"/>
+            </identifier>
+            <name value="Departament de Salut"/>
+            <telecom>
+               <system value="phone"/>
+               <value value="+34932272900"/>
+               <use value="work"/>
+            </telecom>
+            <address>
+               <line value="Travessera De Les Corts, 131-159 (pavelló Ave Maria)"/>
+               <city value="Barcelona"/>
+               <state value="Barcelona"/>
+               <postalCode value="08028"/>
+               <country value="ES"/>
+            </address>
+         </Organization>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:1edebfeb-520d-441c-853a-8d99e96fb803"/>
+      <resource>
+         <Practitioner><!--ClinicalDocument[cda:id[@root="2.16.724.4.9.400.1"]]/legalAuthenticator-->
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <p>Name:  Pané, Olga</p>
+                  <p>---TODO: ID info---</p>
+                  <p>Telephone: </p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:oid:2.16.724.4.9.400.1"/>
+            </identifier>
+            <name>
+               <text value="Pané , Olga"/>
+               <family value=" Pané"/>
+               <given value="Olga"/>
+            </name>
+            <!--Omitting null telecom-->
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:ef49221d-4c73-4e6e-a453-0ab3f75288bc"/>
+      <resource>
+         <MedicationRequest>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+            </meta>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:3D164B55-8BF8-4E08-B7B2-017BC174523D"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <medicationCodeableConcept>
+               <coding>
+                  <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+                  <code value="no-known-medications"/>
+                  <display value="No known medications"/>
+               </coding>
+            </medicationCodeableConcept>
+            <subject>
+               <reference value="urn:uuid:a6d3ab64-eea8-441d-8f01-2d7ffb260d4a"/>
+            </subject>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:eab5424f-1f19-4cae-9150-f5c78f798cdc"/>
+      <resource>
+         <AllergyIntolerance>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <type value="intolerance"/>
+            <code>
+               <coding>
+                  <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+                  <code value="no-allergy-info"/>
+                  <display value="No information about allergies"/>
+               </coding>
+            </code>
+            <patient>
+               <reference value="urn:uuid:a6d3ab64-eea8-441d-8f01-2d7ffb260d4a"/>
+            </patient>
+         </AllergyIntolerance>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:11de4dc1-9ab1-42ae-b0e8-bdc69c8ebffa"/>
+      <resource>
+         <Condition>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:9BC47C57-470C-47FB-948C-1192DC288BE9"/>
+            </identifier>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                  <code value="resolved"/>
+               </coding>
+            </clinicalStatus>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="75326-9"/>
+                  <display value="Problem"/>
+               </coding>
+               <text value="No known Past Illness"/>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+                  <code value="no-known-problems"/>
+                  <display value="No known problems"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:a6d3ab64-eea8-441d-8f01-2d7ffb260d4a"/>
+            </subject>
+         </Condition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:e35cc268-c7ba-4e77-b590-a653c581423e"/>
+      <resource>
+         <Condition>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:765C4F82-ACAD-4345-855A-A15E008E6183"/>
+            </identifier>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="75326-9"/>
+                  <display value="Problem"/>
+               </coding>
+               <text value="No known Active Problems"/>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+                  <code value="no-known-problems"/>
+                  <display value="No known problems"/>
+               </coding>
+            </code>
+            <subject>
+               <reference value="urn:uuid:a6d3ab64-eea8-441d-8f01-2d7ffb260d4a"/>
+            </subject>
+         </Condition>
+      </resource>
+   </entry>
+</Bundle>

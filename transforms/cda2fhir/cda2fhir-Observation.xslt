@@ -247,5 +247,109 @@
         </Observation>
     </xsl:template>
     
+    <!-- Observation - Pregnancy: status
+         https://hl7.org/fhir/uv/ips/StructureDefinition-Observation-pregnancy-status-uv-ips.html
+    -->
+    <xsl:template match="cda:observation[cda:templateId[@root='2.16.840.1.113883.10.22.4.27']]" mode="bundle-entry">
+        <xsl:call-template name="create-bundle-entry"/>
+        <xsl:for-each select="cda:entryRelationship/cda:observation[cda:templateId[@root='2.16.840.1.113883.10.22.4.29']]">
+            <xsl:call-template name="create-bundle-entry"/>
+        </xsl:for-each>
+    </xsl:template>
+    <!-- Observation - Pregnancy: status -->
+    <xsl:template match="cda:observation[cda:templateId[@root='2.16.840.1.113883.10.22.4.27']]">
+        <Observation>
+            <xsl:call-template name="add-meta"/>
+            <xsl:apply-templates select="cda:id"/>
+            <status value="final"/>
+            <xsl:apply-templates select="cda:code">
+                <xsl:with-param name="elementName">code</xsl:with-param>
+            </xsl:apply-templates>
+            <xsl:call-template name="subject-reference"/>
+            <xsl:if test="cda:effectiveTime/@value">
+                <effectiveDateTime>
+                    <xsl:attribute name="value">
+                        <xsl:value-of select="lcg:cdaTS2date(cda:effectiveTime/@value)"/>
+                    </xsl:attribute>
+                </effectiveDateTime>
+            </xsl:if>
+            <xsl:for-each select="cda:entryRelationship/cda:observation[cda:templateId[@root='2.16.840.1.113883.10.22.4.29']]">
+                <hasMember>
+                    <xsl:apply-templates select="." mode="reference"/>
+                </hasMember>
+            </xsl:for-each>
+        </Observation>
+    </xsl:template>
+    <!-- Observation - Pregnancy: EDD -->
+    <xsl:template match="cda:observation[cda:templateId[@root='2.16.840.1.113883.10.22.4.29']]">
+        <Observation>
+            <xsl:call-template name="add-meta"/>
+            <xsl:apply-templates select="cda:id"/>
+            <status value="final"/>
+            <xsl:apply-templates select="cda:code">
+                <xsl:with-param name="elementName">code</xsl:with-param>
+            </xsl:apply-templates>
+            <xsl:call-template name="subject-reference"/>
+            <xsl:if test="cda:effectiveTime/@value">
+                <effectiveDateTime>
+                    <xsl:attribute name="value">
+                        <xsl:value-of select="lcg:cdaTS2date(cda:effectiveTime/@value)"/>
+                    </xsl:attribute>
+                </effectiveDateTime>
+            </xsl:if>
+            <xsl:apply-templates select="cda:value" mode="pregnacyedd"/>
+        </Observation>
+    </xsl:template>
+    
+    <!-- Observation - Pregnancy: outcome
+         https://hl7.org/fhir/uv/ips/StructureDefinition-Observation-pregnancy-outcome-uv-ips.html
+    -->
+    <xsl:template match="cda:observation[cda:templateId[@root='2.16.840.1.113883.10.22.4.28']]" mode="bundle-entry">
+        <xsl:call-template name="create-bundle-entry"/>
+    </xsl:template>
+    <xsl:template match="cda:observation[cda:templateId[@root='2.16.840.1.113883.10.22.4.28']]">
+        <Observation>
+            <xsl:call-template name="add-meta"/>
+            <xsl:apply-templates select="cda:id"/>
+            <status value="final"/>
+            <xsl:apply-templates select="cda:code">
+                <xsl:with-param name="elementName">code</xsl:with-param>
+            </xsl:apply-templates>
+            <xsl:call-template name="subject-reference"/>
+            <xsl:if test="cda:effectiveTime/@value">
+                <effectiveDateTime>
+                    <xsl:attribute name="value">
+                        <xsl:value-of select="lcg:cdaTS2date(cda:effectiveTime/@value)"/>
+                    </xsl:attribute>
+                </effectiveDateTime>
+            </xsl:if>
+            <xsl:apply-templates select="cda:value" mode="pregnacyquantity"/>
+        </Observation>
+    </xsl:template>
 
+    <xsl:template match="cda:value" mode="pregnacyquantity">
+        <valueQuantity>
+            <value>
+                <xsl:attribute name="value">
+                    <xsl:value-of select="@value"/>
+                </xsl:attribute>
+            </value>
+            <system value="http://unitsofmeasure.org"/>
+            <code>
+                <xsl:attribute name="value">
+                    <xsl:value-of select="@value"/>
+                </xsl:attribute>
+            </code>
+        </valueQuantity>
+    </xsl:template>
+    
+    <xsl:template match="cda:value" mode="pregnacyedd">
+        <valueDateTime>
+            <xsl:attribute name="value">
+                <xsl:value-of select="lcg:cdaTS2date(@value)"/>
+            </xsl:attribute>
+        </valueDateTime>
+    </xsl:template>
+    
+    
 </xsl:stylesheet>

@@ -12,36 +12,11 @@
     exclude-result-prefixes="lcg xsl cda fhir xs xsi sdtc xhtml"
     version="2.0">
     
+    <!-- Creat Bundle entry -->
     <xsl:template match="cda:observation[cda:templateId[@root='2.16.840.1.113883.10.20.22.4.4']]" mode="bundle-entry">
         <xsl:call-template name="create-bundle-entry"/>
-        <!-- Below is for medication therapy problems -->
-        <!--
-        <xsl:call-template name="create-medication-entry"/>
-        -->
+        <!-- create-bundle-entry allready call select "." and will applica below tempate -->
     </xsl:template>
-    
-    <!-- 
-    <xsl:template
-        match="cda:observation[cda:templateId[@root='2.16.840.1.113883.10.20.22.4.4']]"
-        mode="reference">
-        <xsl:param name="sectionEntry">false</xsl:param>
-        <xsl:param name="listEntry">false</xsl:param>
-        <xsl:choose>
-            <xsl:when test="$sectionEntry='true'">
-                <entry>
-                    <reference value="urn:uuid:{@lcg:uuid}"/>
-                </entry></xsl:when>
-            <xsl:when test="$listEntry='true'">
-                <entry><item>
-                    <reference value="urn:uuid:{@lcg:uuid}"/></item>
-                </entry></xsl:when>
-            <xsl:otherwise>
-                <reference value="urn:uuid:{@lcg:uuid}"/>
-            </xsl:otherwise>
-        </xsl:choose>
-    </xsl:template>
-    -->
-
     <xsl:template match="cda:observation[cda:templateId[@root='2.16.840.1.113883.10.20.22.4.4']]">
 
         <Condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -125,16 +100,67 @@
         </Condition>
     </xsl:template>
     
+    <!-- CDA IPS Problem Entry
+        https://art-decor.org/ad/#/hl7ips-/rules/templates/2.16.840.1.113883.10.22.4.8/2024-08-04T11:06:03
+    -->
+    <xsl:template match="cda:act[cda:templateId[@root='2.16.840.1.113883.10.22.4.7']]" mode="bundle-entry">
+        <xsl:call-template name="create-bundle-entry"/>
+        <!-- create-bundle-entry allready call select "." and will applica below tempate -->
+    </xsl:template>  
+    <xsl:template match="cda:act[cda:templateId[@root='2.16.840.1.113883.10.22.4.7']]">
+        <xsl:for-each select="cda:entryRelationship/cda:observation[cda:templateId[@root='2.16.840.1.113883.10.22.4.8']]">
+            <Condition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns="http://hl7.org/fhir">
+                
+                <xsl:call-template name="add-meta"/>
+                <xsl:apply-templates select="cda:id"/>
+                <xsl:apply-templates select="ancestor::cda:entry/cda:act/cda:statusCode" mode="condition"/>
+                <!--
+                <xsl:choose>
+                    <xsl:when test="@negationInd='true' and not(cda:value/@code='55607006')">
+                        <verificationStatus value="refuted"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <verificationStatus value="confirmed"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:choose>
+                    <xsl:when test="ancestor::cda:act[cda:templateId[@root='2.16.840.1.113883.10.20.22.4.80']]">
+                        <category>
+                            <coding>
+                                <system value="http://hl7.org/fhir/condition-category"/>
+                                <code value="encounter-diagnosis"/>
+                            </coding>
+                        </category>
+                    </xsl:when>
+                </xsl:choose>-->
+                <xsl:apply-templates select="cda:code" mode="condition"/>
+                <xsl:apply-templates select="cda:value" mode="condition"/>
+                
+                <xsl:call-template name="subject-reference"/>
+                <xsl:apply-templates select="cda:effectiveTime" mode="condition"/>
+                
+            </Condition>
+        </xsl:for-each> 
+    </xsl:template>
+    
     <xsl:template match="cda:statusCode" mode="condition">
         <clinicalStatus>
-            <xsl:choose>
-                <xsl:when test="@code='completed'">
-                    <xsl:attribute name="value">resolved</xsl:attribute>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:attribute name="value" select="@code"/>
-                </xsl:otherwise>
-            </xsl:choose>
+            <coding>
+                <system>
+                    <xsl:attribute name="value">http://terminology.hl7.org/CodeSystem/condition-clinical</xsl:attribute>
+                </system>
+                <code>
+                    <xsl:choose>
+                        <xsl:when test="@code='completed'">
+                            <xsl:attribute name="value">resolved</xsl:attribute>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:attribute name="value" select="@code"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </code>
+            </coding>
         </clinicalStatus>
     </xsl:template>
     

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ClinicalDocument xmlns:ips="urn:hl7-org:ips" xmlns="urn:hl7-org:v3" xmlns:ns2="urn:hl7-org:sdtc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <realmCode code="ES"/>
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+    <templateId root="2.16.840.1.113883.10.22.1.1"/>
+    <id root="2.16.724.4.9.400.1" extension="119795371741946186214"/>
+    <code code="60591-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Patient Summary"/>
+    <title>European Patient Summary</title>
+    <effectiveTime value="20250314105626+0100"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" codeSystemName="Confidentiality" displayName="Normal"/>
+    <languageCode code="en-GB"/>
+    <recordTarget typeCode="RCT" contextControlCode="OP">
+        <patientRole>
+            <id root="2.16.724.4.40" extension="BBBBBBBBDK963670"/>
+            <id root="2.16.724.4.41" extension="GAJI0120514006"/>
+            <id root="1.3.6.1.4.1.19126.3" extension="24488401W"/>
+            <addr use="HP">
+                <streetAddressLine>Cr Sinai 4  N    1 1</streetAddressLine>
+                <city>Barcelona</city>
+                <state>ES</state>
+                <postalCode>08035</postalCode>
+            </addr>
+            <telecom nullFlavor="NI"/>
+            <patient>
+                <name>
+                    <given>Marti</given>
+                    <family>Garcia</family>
+                    <family>Jimenez</family>
+                </name>
+                <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1" codeSystemName="AdministrativeGender" displayName="Male"/>
+                <birthTime value="20120514"/>
+            </patient>
+        </patientRole>
+    </recordTarget>
+    <author typeCode="AUT" contextControlCode="OP">
+        <time value="20250314105626+0100"/>
+        <assignedAuthor classCode="ASSIGNED">
+            <id root="2.16.724.4.9.400.1"/>
+            <addr nullFlavor="NA"/>
+            <telecom nullFlavor="NI"/>
+            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+                <softwareName>Història Clínica Compartida de Catalunya</softwareName>
+            </assignedAuthoringDevice>
+            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.724.4.9.400.1"/>
+                <name>Departament de Salut</name>
+                <telecom use="WP" value="tel:+34932272900"/>
+                <addr>
+                    <streetAddressLine>Travessera De Les Corts, 131-159 (pavelló Ave Maria)</streetAddressLine>
+                    <city>Barcelona</city>
+                    <state>Barcelona</state>
+                    <postalCode>08028</postalCode>
+                    <country>ES</country>
+                </addr>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <custodian typeCode="CST">
+        <assignedCustodian classCode="ASSIGNED">
+            <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.724.4.9.400.1"/>
+                <name>Departament de Salut</name>
+                <telecom use="WP" value="tel:+34932272900"/>
+                <addr>
+                    <streetAddressLine>Travessera De Les Corts, 131-159 (pavelló Ave Maria)</streetAddressLine>
+                    <city>Barcelona</city>
+                    <state>Barcelona</state>
+                    <postalCode>08028</postalCode>
+                    <country>ES</country>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <legalAuthenticator typeCode="LA" contextControlCode="OP">
+        <time value="20250314105626+0100"/>
+        <signatureCode code="S"/>
+        <assignedEntity classCode="ASSIGNED">
+            <id root="2.16.724.4.9.400.1"/>
+            <addr nullFlavor="NI"/>
+            <telecom nullFlavor="NI"/>
+            <assignedPerson>
+                <name>
+                    <given>Olga</given>
+                    <family> Pané</family>
+                    <family> Mena</family>
+                </name>
+            </assignedPerson>
+            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.724.4.9.400.1"/>
+                <name>Departament de Salut</name>
+                <telecom use="WP" value="tel:+34932272900"/>
+                <addr>
+                    <streetAddressLine>Travessera De Les Corts, 131-159 (pavelló Ave Maria)</streetAddressLine>
+                    <city>Barcelona</city>
+                    <state>Barcelona</state>
+                    <postalCode>08028</postalCode>
+                    <country>ES</country>
+                </addr>
+            </representedOrganization>
+        </assignedEntity>
+    </legalAuthenticator>
+    <participant typeCode="IND">
+        <templateId root="2.16.840.1.113883.10.22.2.5"/>
+        <functionCode code="PCP" codeSystem="2.16.840.1.113883.5.88"/>
+        <associatedEntity classCode="PRS">
+            <addr nullFlavor="NI"/>
+            <telecom nullFlavor="NI"/>
+            <scopingOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.724.4.9.400.1"/>
+                <name>Departament de Salut</name>
+                <telecom use="WP" value="tel:+34932272900"/>
+                <addr>
+                    <streetAddressLine>Travessera De Les Corts, 131-159 (pavelló Ave Maria)</streetAddressLine>
+                    <city>Barcelona</city>
+                    <state>Barcelona</state>
+                    <postalCode>08028</postalCode>
+                    <country>ES</country>
+                </addr>
+            </scopingOrganization>
+        </associatedEntity>
+    </participant>
+    <documentationOf>
+        <serviceEvent classCode="PCPR" moodCode="EVN">
+            <effectiveTime>
+                <low value="20120514"/>
+                <high nullFlavor="NA"/>
+            </effectiveTime>
+            <performer typeCode="PRF">
+                <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3"/>
+                <functionCode code="PP" codeSystem="2.16.840.1.113883.12.443" codeSystemName="HL7 ProviderRole" displayName="Primary Care Provider">
+                    <originalText>Primary Care Provider</originalText>
+                </functionCode>
+                <time>
+                    <low value="20120514"/>
+                    <high nullFlavor="NA"/>
+                </time>
+                <assignedEntity classCode="ASSIGNED">
+                    <id root="2.16.724.4.9.400.1"/>
+                    <addr nullFlavor="NI"/>
+                    <telecom nullFlavor="NI"/>
+                    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                        <id root="2.16.724.4.9.400.1"/>
+                        <name>Departament de Salut</name>
+                        <telecom use="WP" value="tel:+34932272900"/>
+                        <addr>
+                            <streetAddressLine>Travessera De Les Corts, 131-159 (pavelló Ave Maria)</streetAddressLine>
+                            <city>Barcelona</city>
+                            <state>Barcelona</state>
+                            <postalCode>08028</postalCode>
+                            <country>ES</country>
+                        </addr>
+                    </representedOrganization>
+                </assignedEntity>
+            </performer>
+        </serviceEvent>
+    </documentationOf>
+    <component>
+        <structuredBody>
+            <component>
+                <section classCode="DOCSECT">
+                    <templateId root="2.16.840.1.113883.10.22.3.1"/>
+                    <id root="2D9CD5C2-1AE7-49CB-BE78-0D90F3A15806"/>
+                    <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Medication Summary"/>
+                    <title>Medication Summary</title>
+                    <text>
+                        <content ID="MED">No known medications.</content>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId root="2.16.840.1.113883.10.22.4.4"/>
+                            <id root="3D164B55-8BF8-4E08-B7B2-017BC174523D"/>
+                            <code code="no-known-medications" codeSystem="2.16.840.1.113883.5.1150.1" displayName="No known medications"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <consumable typeCode="CSM">
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="2.16.840.1.113883.10.22.4.2"/>
+                                    <manufacturedMaterial nullFlavor="NA">
+                                        <templateId root="2.16.840.1.113883.10.22.4.3"/>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.22.3.2"/>
+                    <id root="3E06EDE4-FD0F-4105-8842-8BF672A3889A"/>
+                    <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Alergies, adverse reactions, alerts"/>
+                    <title>Allergies and Other Adverse Reactions</title>
+                    <text>
+                        <content ID="ALE">No known allergies</content>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.22.4.5"/>
+                            <id root="EAF4D902-081A-4CF3-88C4-811F0A7288F9"/>
+                            <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship typeCode="SUBJ" inversionInd="false">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.22.4.1"/>
+                                    <code code="OINT" codeSystem="2.16.840.1.113883.5.4" displayName="Allergy or Intolerances"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low nullFlavor="NA"/>
+                                    </effectiveTime>
+                                    <value xsi:type="CD" code="no-allergy-info" codeSystem="2.16.840.1.113883.5.1150.1" displayName="No information about allergies"/>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.22.3.7"/>
+                    <id root="37E79A75-1E18-431F-BDA9-20280A2E0AD5"/>
+                    <code code="11348-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Past Illness"/>
+                    <title>History of Past Illness</title>
+                    <text>
+                        <content ID="HPRO">No known Past Illness</content>
+                    </text>
+                    <entry typeCode="COMP">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.22.4.7"/>
+                            <id root="A4119F66-62E9-43C7-9B5B-31DAE1BC1849"/>
+                            <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime>
+                                <low nullFlavor="NA"/>
+                                <high nullFlavor="NA"/>
+                            </effectiveTime>
+                            <entryRelationship typeCode="SUBJ" inversionInd="false">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.22.4.8"/>
+                                    <id root="9BC47C57-470C-47FB-948C-1192DC288BE9"/>
+                                    <code code="75326-9" codeSystem="2.16.840.1.113883.6.1" displayName="Problem">
+                                        <originalText>
+                                            <reference value="#HPRO"/>
+                                        </originalText>
+                                    </code>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low nullFlavor="UNK"/>
+                                        <high nullFlavor="UNK"/>
+                                    </effectiveTime>
+                                    <value xsi:type="CD" code="no-known-problems" codeSystem="2.16.840.1.113883.5.1150.1" displayName="No known problems"/>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.22.3.3"/>
+                    <id root="79F311B5-F855-4891-91FD-4E164D994802"/>
+                    <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem list"/>
+                    <title>Active Problems</title>
+                    <text>
+                        <content ID="APRO">No known Active Problems</content>
+                    </text>
+                    <entry typeCode="COMP">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.22.4.7"/>
+                            <id root="58716D6B-8568-4390-8216-2DCCD2F237AE"/>
+                            <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low nullFlavor="NA"/>
+                            </effectiveTime>
+                            <entryRelationship typeCode="SUBJ" inversionInd="false">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.22.4.8"/>
+                                    <id root="765C4F82-ACAD-4345-855A-A15E008E6183"/>
+                                    <code code="75326-9" codeSystem="2.16.840.1.113883.6.1" displayName="Problem">
+                                        <originalText>
+                                            <reference value="#APRO"/>
+                                        </originalText>
+                                    </code>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low nullFlavor="UNK"/>
+                                    </effectiveTime>
+                                    <value xsi:type="CD" code="no-known-problems" codeSystem="2.16.840.1.113883.5.1150.1" displayName="No known problems"/>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>

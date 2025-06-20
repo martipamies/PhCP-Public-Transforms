@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns="\QCDA2Fhir.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options>
+            <serialized xml:space="preserve">
+                <serializableOrderedMap>
+                    <entry>
+                        <String>scenario.associations</String>
+                        <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/Dexeus-Eucat25/TOOL_VICO_OPENCDE%20_40180-34_IPSCDA_ALLEN_PERLOT_EUR01P0013.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/Dexeus-Eucat25/TOOL_VICO_OPENCDE_40180-34_IPSCDA_MARCO_PERONI_EUR01P0011.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/Dexeus-Eucat25/TOOL_VICO_OPENCDE_40180-34_IPSCDA_CHARLES_MERLOT_EUR01P0008.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/Dexeus-Eucat25/TOOL_VICO_OPENCDE_40180-34_IPSCDA_MARY_GINES_EUR01P0020.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>../../WorkDir/GIT_Local/opencde-backoffice-doc/DOC/Connectatthon%202025/Dexeus/IPS/CDA/Charles-merlot-IPS2025015758.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/Dexeus-ips2025060401-mod.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/PS_GAJI0120514006_20250314_105626-cap%20seccio%20-%201Cognom.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/PS_GAJI0120514006_20250314_105626-cap%20seccio.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/LMS-Prueba26022025_1%20-%20mod-PP-AP-AL.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/Dexeus-ips2025032601-mod.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/LMS-Prueba26022025_1%20-%20mod.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/LMS-Prueba26022025_1%20-%20mod-PP-AP.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/LMS-Prueba26022025_1%20-%20mod-past-problem.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>SaxonPE-cda2fhir</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XSL</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                        </scenarioAssociation-array>
+                    </entry>
+                    <entry>
+                        <String>scenarios</String>
+                        <scenario-array>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>SaxonPE-cda2fhir</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>${pdu}/transforms/cda2fhir/SaxonPE-cda2fhir.xslt</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputResource">
+                                    <String>${cfd}/${cfn}_fhir.xml</String>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-PE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                            <scenario>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>cda2fhir</String>
+                                </field>
+                                <field name="baseURL">
+                                    <String></String>
+                                </field>
+                                <field name="footerURL">
+                                    <String></String>
+                                </field>
+                                <field name="fOPMethod">
+                                    <String>pdf</String>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <String>Apache FOP</String>
+                                </field>
+                                <field name="headerURL">
+                                    <String></String>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <String>file:/C:/GitNoSync/CDA2FHIR/transforms/cda2fhir/cda2fhir.xslt</String>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <String>${currentFileURL}</String>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>XSL</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <null/>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>Saxon-PE</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </scenario>
+                        </scenario-array>
+                    </entry>
+                    <entry>
+                        <String>validation.scenario.associations</String>
+                        <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>samples/CDA-IPS/Dexeus-ips2025032601-mod.xml</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>CDA-IPS</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>Validation_scenario</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list>
+                                        <Byte>2</Byte>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                        </scenarioAssociation-array>
+                    </entry>
+                    <entry>
+                        <String>validation.scenarios</String>
+                        <validationScenario-array>
+                            <validationScenario>
+                                <field name="pairs">
+                                    <list>
+                                        <validationUnit>
+                                            <field name="validationType">
+                                                <validationUnitType>
+                                                    <field name="validationInputType">
+                                                        <String>text/xml</String>
+                                                    </field>
+                                                </validationUnitType>
+                                            </field>
+                                            <field name="url">
+                                                <String>${currentFileURL}</String>
+                                            </field>
+                                            <field name="validationEngine">
+                                                <validationEngine>
+                                                    <field name="engineType">
+                                                        <String>&lt;Default engine></String>
+                                                    </field>
+                                                    <field name="allowsAutomaticValidation">
+                                                        <Boolean>true</Boolean>
+                                                    </field>
+                                                </validationEngine>
+                                            </field>
+                                            <field name="allowAutomaticValidation">
+                                                <Boolean>true</Boolean>
+                                            </field>
+                                            <field name="extensions">
+                                                <null/>
+                                            </field>
+                                            <field name="validationSchema">
+                                                <validationUnitSchema>
+                                                    <field name="dtdSchemaPublicID">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="schematronPhase">
+                                                        <null/>
+                                                    </field>
+                                                    <field name="type">
+                                                        <Integer>2</Integer>
+                                                    </field>
+                                                    <field name="uri">
+                                                        <String>file:/C:/Users/marti/Dropbox/Biblioteca%20Tecnica/IHE/PCC/IPS/HL7_CDAR2_INTLPATSUMMARY_STU_R1_2018OCT/CDA_IPS_Schema_v20180629/CDA_IPS.xsd</String>
+                                                    </field>
+                                                </validationUnitSchema>
+                                            </field>
+                                            <field name="validationAdvancedSettings">
+                                                <null/>
+                                            </field>
+                                        </validationUnit>
+                                    </list>
+                                </field>
+                                <field name="type">
+                                    <String>Validation_scenario</String>
+                                </field>
+                                <field name="name">
+                                    <String>CDA-IPS</String>
+                                </field>
+                            </validationScenario>
+                        </validationScenario-array>
+                    </entry>
+                </serializableOrderedMap>
+            </serialized>
+        </options>
+    </meta>
+    <projectTree name="CDA2Fhir.xpr">
+        <folder path="."/>
+        <folder path="../../WorkDir/GIT_Local/opencde-backoffice-doc/DOC/Connectatthon%202025/Dexeus/"/>
+    </projectTree>
+</project>

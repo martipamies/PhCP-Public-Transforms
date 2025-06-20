@@ -1,0 +1,348 @@
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <realmCode code="UV"/>
+    <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+    <templateId extension="2.16.840.1.113883.4.292.20.1.1.13.296" root="2.16.840.1.113883.4.292.20.1.1.13"/>
+    <templateId root="2.16.840.1.113883.10.22.1.1"/>
+    <id extension="IPS_2025015759_2" root="2.16.840.1.113883.4.292.20.1.1.1.23"/>
+    <code code="60591-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Patient Summary"/>
+    <title>International Patient Summary.</title>
+    <effectiveTime value="202506191106+0200"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+    <languageCode code="en-GB"/>
+    <recordTarget>
+        <patientRole>
+            <id extension="2025015759" root="2.16.840.1.113883.4.292.20.1.1.20.1"/>
+            <id extension="EUR01P0020" root="2.16.840.1.113883.4.330"/>
+            <addr>
+                <streetAddressLine>LANDSTRASSE, 1</streetAddressLine>
+                <city>VIENNA</city>
+                <state>VIENNA</state>
+                <postalCode>22181</postalCode>
+                <country>AT</country>
+            </addr>
+            <telecom value="tel:34628901083"/>
+            <patient>
+                <name>
+                    <given>MARY</given>
+                    <family>GINES</family>
+                    <family>.</family>
+                </name>
+                <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1"/>
+                <birthTime value="19630909"/>
+            </patient>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <time value="202506191106+0200"/>
+        <assignedAuthor>
+            <id extension="RICSAB" root="2.16.840.1.113883.4.292.20.1.1.14.1"/>
+            <id extension="080837292" root="2.16.840.1.113883.2.19.10.8"/>
+            <code code="207V00000X" codeSystem="2.16.840.1.113883.6.101"/>
+            <addr use="WP">
+                <streetAddressLine>Gran Via de Carles III 71-75</streetAddressLine>
+                <city>BARCELONA</city>
+                <state>BARCELONA</state>
+                <postalCode>08028</postalCode>
+                <country>ES</country>
+            </addr>
+            <telecom use="WP" value="mailto:ricsab@dexeus.com"/>
+            <assignedPerson>
+                <name>
+                    <given>Ricard</given>
+                    <family>Sabartés</family>
+                    <family>Fortuny</family>
+                </name>
+            </assignedPerson>
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian classCode="ASSIGNED">
+            <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.4.292.20.1.1"/>
+                <name>Dexeus Mujer Barcelona</name>
+                <telecom use="WP" value="tel:932274727"/>
+                <addr use="WP">
+                    <streetAddressLine>Gran Via Carles III, 71-75</streetAddressLine>
+                    <city>Barcelona</city>
+                    <state>Barcelona</state>
+                    <postalCode>08028</postalCode>
+                    <country>ES</country>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <legalAuthenticator>
+        <time value="202506191106+0200"/>
+        <signatureCode code="S"/>
+        <assignedEntity>
+            <id extension="RICSAB" root="2.16.840.1.113883.4.292.20.1.1.14.1"/>
+            <id extension="080837292" root="2.16.840.1.113883.2.19.10.8"/>
+            <code code="207V00000X" codeSystem="2.16.840.1.113883.6.101"/>
+            <addr nullFlavor="UNK"/>
+            <telecom nullFlavor="UNK"/>
+            <assignedPerson>
+                <name>
+                    <given>Ricard</given>
+                    <family>Sabartés</family>
+                    <family>Fortuny</family>
+                </name>
+            </assignedPerson>
+            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.4.292.20.1.1"/>
+                <name>Dexeus Mujer Barcelona</name>
+                <telecom use="WP" value="tel:932274727"/>
+                <addr use="WP">
+                    <streetAddressLine>Gran Via Carles III, 71-75</streetAddressLine>
+                    <city>Barcelona</city>
+                    <state>Barcelona</state>
+                    <postalCode>08028</postalCode>
+                    <country>ES</country>
+                </addr>
+            </representedOrganization>
+        </assignedEntity>
+    </legalAuthenticator>
+    <documentationOf>
+        <serviceEvent classCode="PCPR" moodCode="EVN">
+            <effectiveTime value="202506191106+0200">
+                <low nullFlavor="NA"/>
+                <high nullFlavor="NA"/>
+            </effectiveTime>
+            <performer typeCode="PRF">
+                <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3"/>
+                <functionCode code="PP" codeSystem="2.16.840.1.113883.12.443" codeSystemName="HL7 ProviderRole" displayName="Primary Care Provider">
+                    <originalText>Primary Care Provider</originalText>
+                </functionCode>
+                <time>
+                    <low value="202506191106+0200"/>
+                    <high nullFlavor="NA"/>
+                </time>
+                <assignedEntity>
+                    <id extension="RICSAB" root="2.16.840.1.113883.4.292.20.1.1.14.1"/>
+                    <id extension="080837292" root="2.16.840.1.113883.2.19.10.8"/>
+                    <code code="2.16.840.1.113883.4.292.20.1.1.2.2" codeSystem="2.16.840.1.113883.6.101"/>
+                    <addr nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <assignedPerson>
+                        <name>
+                            <given>Ricard</given>
+                            <family>Sabartés</family>
+                            <family>Fortuny</family>
+                        </name>
+                    </assignedPerson>
+                    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                        <id root="2.16.840.1.113883.4.292.20.1.1"/>
+                        <name>Dexeus Mujer Barcelona</name>
+                        <telecom use="WP" value="tel:932274727"/>
+                        <addr use="WP">
+                            <streetAddressLine>Gran Via Carles III, 71-75</streetAddressLine>
+                            <city>Barcelona</city>
+                            <state>Barcelona</state>
+                            <postalCode>08028</postalCode>
+                            <country>ES</country>
+                        </addr>
+                    </representedOrganization>
+                </assignedEntity>
+            </performer>
+        </serviceEvent>
+    </documentationOf>
+    <relatedDocument typeCode="RPLC">
+        <parentDocument>
+            <id extension="IPS_2025015759_1" root="2.16.840.1.113883.4.292.20.1.1.1.23"/>
+        </parentDocument>
+    </relatedDocument>
+    <component>
+        <structuredBody>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.22.3.1"/>
+                    <id root="E5DC7216-C4DE-4797-A9D9-4F9B9179CB0C"/>
+                    <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of medication use"/>
+                    <title>Medication Summary</title>
+                    <text>
+                        <content ID="MED">No known medications</content>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId root="2.16.840.1.113883.10.22.4.4"/>
+                            <id root="6C47F0BA-3D2F-4093-90B3-5A5BE4995A56"/>
+                            <code code="no-known-medications" codeSystem="2.16.840.1.113883.5.1150.1" displayName="No information about medications"/>
+                            <statusCode code="completed"/>
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <consumable typeCode="CSM">
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="2.16.840.1.113883.10.22.4.2"/>
+                                    <manufacturedMaterial nullFlavor="NA">
+                                        <templateId root="2.16.840.1.113883.10.22.4.3"/>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.22.3.2"/>
+                    <id root="3E5DA652-246D-4F0F-8940-72A8E8757C99"/>
+                    <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Alergies, adverse reactions, alerts"/>
+                    <title>Allergies and Other Adverse Reactions</title>
+                    <text>
+                        <content ID="ALE">No known allergies</content>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.22.4.5"/>
+                            <id root="164579CD-2C7B-4AA0-B6CA-658C7326F8EE"/>
+                            <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.22.4.1"/>
+                                    <code code="OINT" codeSystem="2.16.840.1.113883.5.4" displayName="Allergy or Intolerances"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low nullFlavor="NA"/>
+                                    </effectiveTime>
+                                    <value code="no-known-allergies" codeSystem="2.16.840.1.113883.5.1150.1" displayName="No information about allergies" xsi:type="CD"/>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.22.3.3"/>
+                    <id root="AC69CA97-2EF6-4A1A-ACE7-F42D7197ADC6"/>
+                    <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem list"/>
+                    <title>Active Problems</title>
+                    <text>
+                        <content ID="PROB">No known problems</content>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.22.4.7"/>
+                            <id root="164579CD-2C7B-4AA0-B6CA-658C7326F8EE"/>
+                            <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.22.4.8"/>
+                                    <code code="75326-9" codeSystem="2.16.840.1.113883.6.1" displayName="Problem"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low nullFlavor="NI"/>
+                                    </effectiveTime>
+                                    <value code="no-known-problems" codeSystem="2.16.840.1.113883.5.1150.1" displayName="No known problems" xsi:type="CD"/>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.22.3.11"/>
+                    <id extension="--example only--" root="1.2.3.999"/>
+                    <code code="10162-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="IPS History of pregnancy"/>
+                    <title>History of pregnancy</title>
+                    <text>
+                        <content ID="PREG">No known pregnancies</content>
+                    </text>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.22.3.5"/>
+                    <id root="4A041020-6276-4B8B-AD52-424340891AB5"/>
+                    <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of immunizations"/>
+                    <title>Immunizations</title>
+                    <text>
+                        <!-- WARN Narratiu de la secció -->
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        <content>Date</content>
+                                    </th>
+                                    <th>
+                                        <content>Vaccine</content>
+                                    </th>
+                                    <th>
+                                        <content>Dose</content>
+                                    </th>
+                                    <th>
+                                        <content>Reference</content>
+                                    </th>
+                                    <th>
+                                        <content>Lot</content>
+                                    </th>
+                                </tr>
+                                <tr ID="VAC.72897">
+                                    <td>
+                                        <content>1970-06-15</content>
+                                    </td>
+                                    <td>
+                                        <content>Rubeola ()</content>
+                                    </td>
+                                    <td>
+                                        <content>1</content>
+                                    </td>
+                                    <td>
+                                        <content>RB452315</content>
+                                    </td>
+                                    <td>
+                                        <content>656341</content>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="false">
+                            <templateId root="2.16.840.1.113883.10.22.4.15"/>
+                            <id extension="#VAC.72897" root="4A9C441D-DDDE-4ACF-9140-8071B08E4190"/>
+                            <code code="IMMUNIZ" codeSystem="2.16.840.1.113883.5.4" codeSystemName="Act Code" displayName="Immunizations">
+                                <originalText>
+                                    <!-- WARN:Referencia al narratiu -->
+                                    <reference value="#VAC.72897"/>
+                                </originalText>
+                            </code>
+                            <statusCode code="completed"/>
+                            <!-- WARN Data Vacunació -->
+                            <effectiveTime value="19700615"/>
+                            <doseQuantity nullFlavor="UNK"/>
+                            <consumable typeCode="CSM">
+                                <templateId root="2.16.840.1.113883.10.22.4.16"/>
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="2.16.840.1.113883.10.22.4.16"/>
+                                    <manufacturedMaterial classCode="MMAT" determinerCode="KIND">
+                                        <!-- WARN Tipus de Vacuna amb SNOMED CT -->
+                                        <code code="82314000" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Administration of rubella vaccine"/>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <entryRelationship typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <id root="2.16.840.1.113883.10.20.1.46"/>
+                                    <code code="30973-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Dose Number"/>
+                                    <statusCode code="completed"/>
+                                    <!-- WARN Numero de dosi -->
+                                    <value value="1" xsi:type="INT"/>
+                                </observation>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>

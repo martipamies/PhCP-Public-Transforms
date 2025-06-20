@@ -21,6 +21,7 @@
             <xsl:call-template name="add-race-codes"/>
             <xsl:call-template name="add-ethnicity-codes"/>
             <xsl:call-template name="add-birthtime-extension"/>
+            <xsl:call-template name="add-mothersMaidenName-extension"/>
             <xsl:apply-templates select="cda:patientRole/cda:id"/>
             <xsl:apply-templates select="cda:patientRole/cda:patient/cda:id"/>
             <xsl:apply-templates select="cda:patientRole/cda:patient/cda:name"/>
@@ -176,6 +177,14 @@
     </xsl:template>
 
 
+    <xsl:template name="add-mothersMaidenName-extension">
+        <xsl:if test="cda:patientRole/cda:patient/cda:name/cda:family[2]">
+            <extension url="http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName" >
+                <valueString value="{cda:patientRole/cda:patient/cda:name/cda:family[2]}"/>
+            </extension>
+        </xsl:if>
+    </xsl:template>
+    
     <xsl:template name="add-birthtime-extension">
         <xsl:for-each select="cda:patientRole/cda:patient/cda:birthTime[string-length(@value) > 8]">
             <extension url="http://hl7.org/fhir/StructureDefinition/patient-birthTime" >

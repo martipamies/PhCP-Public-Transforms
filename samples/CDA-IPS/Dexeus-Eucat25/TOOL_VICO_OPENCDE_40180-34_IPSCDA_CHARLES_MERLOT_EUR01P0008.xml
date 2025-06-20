@@ -1,0 +1,482 @@
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <realmCode code="UV"/>
+    <typeId extension="POCD_HD000040" root="2.16.840.1.113883.1.3"/>
+    <templateId extension="2.16.840.1.113883.4.292.20.1.1.13.296" root="2.16.840.1.113883.4.292.20.1.1.13"/>
+    <templateId root="2.16.840.1.113883.10.22.1.1"/>
+    <id extension="IPS_2025015758_1" root="2.16.840.1.113883.4.292.20.1.1.1.23"/>
+    <code code="60591-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Patient Summary"/>
+    <title>International Patient Summary.</title>
+    <effectiveTime value="202506191106+0200"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+    <languageCode code="en-GB"/>
+    <recordTarget>
+        <patientRole>
+            <id extension="2025015758" root="2.16.840.1.113883.4.292.20.1.1.20.1"/>
+            <id extension="EUR01P0008" root="2.16.840.1.113883.4.330"/>
+            <addr>
+                <streetAddressLine>LANDSTRASSE, 1</streetAddressLine>
+                <city>VIENNA</city>
+                <state>VIENNA</state>
+                <postalCode>22180</postalCode>
+                <country>AT</country>
+            </addr>
+            <telecom value="tel:34628901083"/>
+            <patient>
+                <name>
+                    <given>CHARLES</given>
+                    <family>MERLOT</family>
+                    <family>.</family>
+                </name>
+                <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"/>
+                <birthTime value="19660404"/>
+            </patient>
+        </patientRole>
+    </recordTarget>
+    <author>
+        <time value="202506191106+0200"/>
+        <assignedAuthor>
+            <id extension="RICSAB" root="2.16.840.1.113883.4.292.20.1.1.14.1"/>
+            <id extension="080837292" root="2.16.840.1.113883.2.19.10.8"/>
+            <code code="207V00000X" codeSystem="2.16.840.1.113883.6.101"/>
+            <addr use="WP">
+                <streetAddressLine>Gran Via de Carles III 71-75</streetAddressLine>
+                <city>BARCELONA</city>
+                <state>BARCELONA</state>
+                <postalCode>08028</postalCode>
+                <country>ES</country>
+            </addr>
+            <telecom use="WP" value="mailto:ricsab@dexeus.com"/>
+            <assignedPerson>
+                <name>
+                    <given>Ricard</given>
+                    <family>Sabartés</family>
+                    <family>Fortuny</family>
+                </name>
+            </assignedPerson>
+        </assignedAuthor>
+    </author>
+    <custodian>
+        <assignedCustodian classCode="ASSIGNED">
+            <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.4.292.20.1.1"/>
+                <name>Dexeus Mujer Barcelona</name>
+                <telecom use="WP" value="tel:932274727"/>
+                <addr use="WP">
+                    <streetAddressLine>Gran Via Carles III, 71-75</streetAddressLine>
+                    <city>Barcelona</city>
+                    <state>Barcelona</state>
+                    <postalCode>08028</postalCode>
+                    <country>ES</country>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <legalAuthenticator>
+        <time value="202506191106+0200"/>
+        <signatureCode code="S"/>
+        <assignedEntity>
+            <id extension="RICSAB" root="2.16.840.1.113883.4.292.20.1.1.14.1"/>
+            <id extension="080837292" root="2.16.840.1.113883.2.19.10.8"/>
+            <code code="207V00000X" codeSystem="2.16.840.1.113883.6.101"/>
+            <addr nullFlavor="UNK"/>
+            <telecom nullFlavor="UNK"/>
+            <assignedPerson>
+                <name>
+                    <given>Ricard</given>
+                    <family>Sabartés</family>
+                    <family>Fortuny</family>
+                </name>
+            </assignedPerson>
+            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.4.292.20.1.1"/>
+                <name>Dexeus Mujer Barcelona</name>
+                <telecom use="WP" value="tel:932274727"/>
+                <addr use="WP">
+                    <streetAddressLine>Gran Via Carles III, 71-75</streetAddressLine>
+                    <city>Barcelona</city>
+                    <state>Barcelona</state>
+                    <postalCode>08028</postalCode>
+                    <country>ES</country>
+                </addr>
+            </representedOrganization>
+        </assignedEntity>
+    </legalAuthenticator>
+    <documentationOf>
+        <serviceEvent classCode="PCPR" moodCode="EVN">
+            <effectiveTime value="202506191106+0200">
+                <low nullFlavor="NA"/>
+                <high nullFlavor="NA"/>
+            </effectiveTime>
+            <performer typeCode="PRF">
+                <templateId root="1.3.6.1.4.1.19376.1.5.3.1.2.3"/>
+                <functionCode code="PP" codeSystem="2.16.840.1.113883.12.443" codeSystemName="HL7 ProviderRole" displayName="Primary Care Provider">
+                    <originalText>Primary Care Provider</originalText>
+                </functionCode>
+                <time>
+                    <low value="202506191106+0200"/>
+                    <high nullFlavor="NA"/>
+                </time>
+                <assignedEntity>
+                    <id extension="RICSAB" root="2.16.840.1.113883.4.292.20.1.1.14.1"/>
+                    <id extension="080837292" root="2.16.840.1.113883.2.19.10.8"/>
+                    <code code="2.16.840.1.113883.4.292.20.1.1.2.2" codeSystem="2.16.840.1.113883.6.101"/>
+                    <addr nullFlavor="UNK"/>
+                    <telecom nullFlavor="UNK"/>
+                    <assignedPerson>
+                        <name>
+                            <given>Ricard</given>
+                            <family>Sabartés</family>
+                            <family>Fortuny</family>
+                        </name>
+                    </assignedPerson>
+                    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                        <id root="2.16.840.1.113883.4.292.20.1.1"/>
+                        <name>Dexeus Mujer Barcelona</name>
+                        <telecom use="WP" value="tel:932274727"/>
+                        <addr use="WP">
+                            <streetAddressLine>Gran Via Carles III, 71-75</streetAddressLine>
+                            <city>Barcelona</city>
+                            <state>Barcelona</state>
+                            <postalCode>08028</postalCode>
+                            <country>ES</country>
+                        </addr>
+                    </representedOrganization>
+                </assignedEntity>
+            </performer>
+        </serviceEvent>
+    </documentationOf>
+    <relatedDocument typeCode="RPLC">
+        <parentDocument>
+            <id extension="IPS_2025015758_0" root="2.16.840.1.113883.4.292.20.1.1.1.23"/>
+        </parentDocument>
+    </relatedDocument>
+    <component>
+        <structuredBody>
+            <component>
+                <section classCode="DOCSECT">
+                    <templateId root="2.16.840.1.113883.10.22.3.1"/>
+                    <id root="730A0C71-8928-4010-A568-4351A5E934DD"/>
+                    <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" displayName="Medication Summary"/>
+                    <title>Medication Summary</title>
+                    <text>
+                        <paragraph>
+                            <content styleCode="Bold">Currently active medications</content>
+                        </paragraph>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        <content>Product and</content>
+                                        <br/>
+                                        <content>dose form</content>
+                                    </th>
+                                    <th>
+                                        <content>Dose and</content>
+                                        <br/>
+                                        <content>frequency</content>
+                                    </th>
+                                    <th>Route</th>
+                                    <th>Duration</th>
+                                    <th>Comments</th>
+                                </tr>
+                                <tr ID="MED.1901849">
+                                    <td>
+                                        <content>AMOXICILINA CINFA EFG</content>
+                                        <br/>
+                                        <content>Capsule, soft</content>
+                                    </td>
+                                    <td>
+                                        <content>1 Capsule, soft</content>
+                                        <br/>
+                                        <content>each 8 hour</content>
+                                    </td>
+                                    <td>
+                                        <content>Oral use</content>
+                                    </td>
+                                    <td>
+                                        <content>2025-06-06</content>
+                                        <br/>
+                                        <content>2025-08-15</content>
+                                    </td>
+                                    <td/>
+                                </tr>
+                                <tr ID="MED.1901847">
+                                    <td>
+                                        <content>IBUPROFENO PENSA EFG</content>
+                                        <br/>
+                                        <content>Tablet</content>
+                                    </td>
+                                    <td>
+                                        <content>1 Tablet</content>
+                                        <br/>
+                                        <content>each 8 hour</content>
+                                    </td>
+                                    <td>
+                                        <content>Oral use</content>
+                                    </td>
+                                    <td>
+                                        <content>2025-06-06</content>
+                                        <br/>
+                                        <content>2025-07-25</content>
+                                    </td>
+                                    <td/>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId root="2.16.840.1.113883.10.22.4.4"/>
+                            <id extension="PENDENT" root="2.16.840.1.113883.4.292.20.1.1.1.17"/>
+                            <code code="DRUG" codeSystem="2.16.840.1.113883.5.4"/>
+                            <text>
+                                <reference value="#MED.1901849"/>
+                            </text>
+                            <!--  Si dispensat completed -->
+                            <statusCode code="active"/>
+                            <!--  IPS.MED Durada del tractament. Sha descollir una daquestes dues opcions  -->
+                            <!--  IPS.MED Cas data dinici i fi del tractament format (YYYYMMDD)  -->
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low value="20250606"/>
+                                <high value="20250815"/>
+                            </effectiveTime>
+                            <!-- Via dadministracio -->
+                            <routeCode code="20053000" codeSystem="0.4.0.127.0.16.1.1.2.1" codeSystemName="IPSRouteOfAdmin"/>
+                            <!--  IPS.MED El producte prescrit  -->
+                            <consumable typeCode="CSM">
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="2.16.840.1.113883.10.22.4.2"/>
+                                    <manufacturedMaterial classCode="MMAT" determinerCode="KIND">
+                                        <templateId root="2.16.840.1.113883.10.22.4.3"/>
+                                        <code code="267844" codeSystem="2.16.724.4.21.5.15.4" displayName="AMOXICILINA CINFA EFG 500 mg 30 CAPSULAS"/>
+                                        <name>AMOXICILINA CINFA EFG 500 mg 30 CAPSULAS</name>
+                                        <pharm:formCode xmlns:pharm="urn:hl7-org:pharm" code="10211000" codeSystem="2.16.840.1.113883.11.22.25" codeSystemName="EDQM" displayName="Capsule, soft"/>
+                                        <pharm:asSpecializedKind xmlns:pharm="urn:hl7-org:pharm" classCode="GRIC">
+                                            <pharm:generalizedMaterialKind classCode="MMAT" determinerCode="KIND">
+                                                <pharm:code code="J01CA" codeSystem="2.16.840.1.113883.6.73" codeSystemName="WHO ATC" displayName="PENICILINAS CON ESPECTRO AMPLIADO"/>
+                                            </pharm:generalizedMaterialKind>
+                                        </pharm:asSpecializedKind>
+                                        <!-- Principis Actius -->
+                                        <pharm:ingredient xmlns:pharm="urn:hl7-org:pharm" classCode="ACTI">
+                                            <pharm:quantity>
+                                                <numerator unit="mg" value="500.0" xsi:type="PQ"/>
+                                                <denominator unit="mg" value="1" xsi:type="PQ"/>
+                                            </pharm:quantity>
+                                            <pharm:ingredientSubstance classCode="MMAT" determinerCode="KIND">
+                                                <pharm:code code="183.0" codeSystem="2.16.724.4.21.5.15.5" codeSystemName="Diccionario Descripción Clínica de Sustancia Activa (DCSA)"/>
+                                                <pharm:name>AMOXICILINA</pharm:name>
+                                            </pharm:ingredientSubstance>
+                                        </pharm:ingredient>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <entryRelationship typeCode="COMP">
+                                <substanceAdministration classCode="SBADM" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.22.4.33"/>
+                                    <statusCode code="active"/>
+                                    <!--  Exemple cada unitat de temps  -->
+                                    <effectiveTime institutionSpecified="true" xsi:type="PIVL_TS">
+                                        <period unit="h" value="8"/>
+                                    </effectiveTime>
+                                    <!--  cas unitat prescripcio-->
+                                    <doseQuantity unit="{capsule}" value="1"/>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedMaterial nullFlavor="NA"/>
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <substanceAdministration classCode="SBADM" moodCode="INT">
+                            <templateId root="2.16.840.1.113883.10.22.4.4"/>
+                            <id extension="PENDENT" root="2.16.840.1.113883.4.292.20.1.1.1.17"/>
+                            <code code="DRUG" codeSystem="2.16.840.1.113883.5.4"/>
+                            <text>
+                                <reference value="#MED.1901847"/>
+                            </text>
+                            <!--  Si dispensat completed -->
+                            <statusCode code="active"/>
+                            <!--  IPS.MED Durada del tractament. Sha descollir una daquestes dues opcions  -->
+                            <!--  IPS.MED Cas data dinici i fi del tractament format (YYYYMMDD)  -->
+                            <effectiveTime xsi:type="IVL_TS">
+                                <low value="20250606"/>
+                                <high value="20250725"/>
+                            </effectiveTime>
+                            <!-- Via dadministracio -->
+                            <routeCode code="20053000" codeSystem="0.4.0.127.0.16.1.1.2.1" codeSystemName="IPSRouteOfAdmin"/>
+                            <!--  IPS.MED El producte prescrit  -->
+                            <consumable typeCode="CSM">
+                                <manufacturedProduct classCode="MANU">
+                                    <templateId root="2.16.840.1.113883.10.22.4.2"/>
+                                    <manufacturedMaterial classCode="MMAT" determinerCode="KIND">
+                                        <templateId root="2.16.840.1.113883.10.22.4.3"/>
+                                        <code code="403775" codeSystem="2.16.724.4.21.5.15.4" displayName="IBUPROFENO PENSA EFG 600 mg 40 COMPRIMIDOS RECUBIERTOS"/>
+                                        <name>IBUPROFENO PENSA EFG 600 mg 40 COMPRIMIDOS RECUBIERTOS</name>
+                                        <pharm:formCode xmlns:pharm="urn:hl7-org:pharm" code="10219000" codeSystem="2.16.840.1.113883.11.22.25" codeSystemName="EDQM" displayName="Tablet "/>
+                                        <pharm:asSpecializedKind xmlns:pharm="urn:hl7-org:pharm" classCode="GRIC">
+                                            <pharm:generalizedMaterialKind classCode="MMAT" determinerCode="KIND">
+                                                <pharm:code code="M01AE" codeSystem="2.16.840.1.113883.6.73" codeSystemName="WHO ATC" displayName="DERIVADOS DEL ACIDO PROPIONICO"/>
+                                            </pharm:generalizedMaterialKind>
+                                        </pharm:asSpecializedKind>
+                                        <!-- Principis Actius -->
+                                        <pharm:ingredient xmlns:pharm="urn:hl7-org:pharm" classCode="ACTI">
+                                            <pharm:quantity>
+                                                <numerator unit="mg" value="600.0" xsi:type="PQ"/>
+                                                <denominator unit="mg" value="1" xsi:type="PQ"/>
+                                            </pharm:quantity>
+                                            <pharm:ingredientSubstance classCode="MMAT" determinerCode="KIND">
+                                                <pharm:code code="1527.0" codeSystem="2.16.724.4.21.5.15.5" codeSystemName="Diccionario Descripción Clínica de Sustancia Activa (DCSA)"/>
+                                                <pharm:name>IBUPROFENO</pharm:name>
+                                            </pharm:ingredientSubstance>
+                                        </pharm:ingredient>
+                                    </manufacturedMaterial>
+                                </manufacturedProduct>
+                            </consumable>
+                            <entryRelationship typeCode="COMP">
+                                <substanceAdministration classCode="SBADM" moodCode="INT">
+                                    <templateId root="2.16.840.1.113883.10.22.4.33"/>
+                                    <statusCode code="active"/>
+                                    <!--  Exemple cada unitat de temps  -->
+                                    <effectiveTime institutionSpecified="true" xsi:type="PIVL_TS">
+                                        <period unit="h" value="8"/>
+                                    </effectiveTime>
+                                    <!--  cas unitat prescripcio-->
+                                    <doseQuantity unit="{tablet}" value="1"/>
+                                    <consumable>
+                                        <manufacturedProduct>
+                                            <manufacturedMaterial nullFlavor="NA"/>
+                                        </manufacturedProduct>
+                                    </consumable>
+                                </substanceAdministration>
+                            </entryRelationship>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section>
+                    <templateId root="2.16.840.1.113883.10.22.3.2"/>
+                    <id root="3E5DA652-246D-4F0F-8940-72A8E8757C99"/>
+                    <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Alergies, adverse reactions, alerts"/>
+                    <title>Allergies and Other Adverse Reactions</title>
+                    <text>
+                        <content ID="ALE">No known allergies</content>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.22.4.5"/>
+                            <id root="164579CD-2C7B-4AA0-B6CA-658C7326F8EE"/>
+                            <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low nullFlavor="UNK"/>
+                            </effectiveTime>
+                            <entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.22.4.1"/>
+                                    <code code="OINT" codeSystem="2.16.840.1.113883.5.4" displayName="Allergy or Intolerances"/>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low nullFlavor="NA"/>
+                                    </effectiveTime>
+                                    <value code="no-known-allergies" codeSystem="2.16.840.1.113883.5.1150.1" displayName="No information about allergies" xsi:type="CD"/>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+            <component>
+                <section classCode="DOCSECT">
+                    <templateId root="2.16.840.1.113883.10.22.3.3"/>
+                    <id root="270B659F-FEE8-4B2D-828C-26E3E5F6C460"/>
+                    <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Problem list"/>
+                    <title>Active Problems</title>
+                    <text>
+                        <table border="1PX">
+                            <tbody>
+                                <tr>
+                                    <th>Problem</th>
+                                    <th>Onset time</th>
+                                </tr>
+                                <tr>
+                                    <td ID="APRO.10811">Urinary tract infectious disease</td>
+                                    <td>2025-03-01</td>
+                                </tr>
+                                <tr>
+                                    <td ID="APRO.10812">Hypertensive disorder</td>
+                                    <td>2016-06-12</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </text>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.22.4.7"/>
+                            <id root="4978D9DA-8BAA-400E-A451-088A31DB92B7"/>
+                            <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low value="20250301"/>
+                            </effectiveTime>
+                            <entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.22.4.8"/>
+                                    <id root="96D99B62-169D-43F4-B0F1-CD7DE4576603"/>
+                                    <!--  MPS  -->
+                                    <code code="75326-9" codeSystem="2.16.840.1.113883.6.1" displayName="Problem"/>
+                                    <text>
+                                        <reference value="#APRO.10811"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low value="20250301"/>
+                                    </effectiveTime>
+                                    <value code="68566005 " codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED" displayName="Urinary tract infectious disease" xsi:type="CD">
+                                        <originalText>
+                                            <reference value="#APRO.10811"/>
+                                        </originalText>
+                                    </value>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                    <entry typeCode="DRIV">
+                        <act classCode="ACT" moodCode="EVN">
+                            <templateId root="2.16.840.1.113883.10.22.4.7"/>
+                            <id root="4978D9DA-8BAA-400E-A451-088A31DB92B7"/>
+                            <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+                            <statusCode code="active"/>
+                            <effectiveTime>
+                                <low value="20160612"/>
+                            </effectiveTime>
+                            <entryRelationship inversionInd="false" typeCode="SUBJ">
+                                <observation classCode="OBS" moodCode="EVN">
+                                    <templateId root="2.16.840.1.113883.10.22.4.8"/>
+                                    <id root="96D99B62-169D-43F4-B0F1-CD7DE4576603"/>
+                                    <!--  MPS  -->
+                                    <code code="75326-9" codeSystem="2.16.840.1.113883.6.1" displayName="Problem"/>
+                                    <text>
+                                        <reference value="#APRO.10812"/>
+                                    </text>
+                                    <statusCode code="completed"/>
+                                    <effectiveTime>
+                                        <low value="20160612"/>
+                                    </effectiveTime>
+                                    <value code="38341003 " codeSystem="2.16.840.1.113883.6.5" codeSystemName="SNOMED" displayName="Hypertensive disorder" xsi:type="CD">
+                                        <originalText>
+                                            <reference value="#APRO.10812"/>
+                                        </originalText>
+                                    </value>
+                                </observation>
+                            </entryRelationship>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>

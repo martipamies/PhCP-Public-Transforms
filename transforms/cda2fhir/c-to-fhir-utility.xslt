@@ -376,7 +376,10 @@
 				<xsl:if test="string-length(normalize-space(.)) > 0">
 					<text>
 						<xsl:attribute name="value">
-							<xsl:value-of select="normalize-space(cda:family)"/>
+							<xsl:for-each select="cda:family">
+								<xsl:value-of select="normalize-space(.)"/>
+								<xsl:text> </xsl:text>
+							</xsl:for-each>
 							<xsl:text>,</xsl:text>
 							<xsl:for-each select="cda:suffix">
 								<xsl:text> </xsl:text>
@@ -399,7 +402,8 @@
 						</xsl:attribute>
 					</text>
 				</xsl:if>
-				<xsl:for-each select="cda:family">
+				<!-- HummanName DataType allows just 1 Family (https://www.hl7.org/fhir/datatypes.html#HumanName) -->
+				<xsl:for-each select="cda:family[1]">
 					<xsl:if test="string-length(.) &gt; 0">
 						<family value="{.}"/>
 					</xsl:if>

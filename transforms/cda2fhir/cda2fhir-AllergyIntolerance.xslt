@@ -91,6 +91,63 @@
         </AllergyIntolerance>
     </xsl:template>
     
+    <!-- CDA IPS IPS Allergy and Intolerance Concern
+        https://art-decor.org/ad/#/hl7ips-/rules/templates/2.16.840.1.113883.10.22.4.5/2024-08-04T10:09:24
+    -->
+    <xsl:template match="cda:act[cda:templateId[@root='2.16.840.1.113883.10.22.4.5']]" mode="bundle-entry">
+        <xsl:call-template name="create-bundle-entry"/>
+    </xsl:template>
+    <xsl:template match="cda:act[cda:templateId[@root='2.16.840.1.113883.10.22.4.5']]">
+        <xsl:for-each select="cda:entryRelationship/cda:observation[cda:templateId[@root='2.16.840.1.113883.10.22.4.1']]">
+            <AllergyIntolerance xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xmlns="http://hl7.org/fhir">
+                
+                <xsl:call-template name="add-meta"/>
+                <xsl:apply-templates select="cda:id"/>
+                <xsl:apply-templates select="ancestor::cda:act[cda:templateId[@root='2.16.840.1.113883.10.22.4.5']]/cda:statusCode" mode="allergy"/>
+                <type>
+                    <xsl:attribute name="value">
+                        <xsl:choose>
+                            <xsl:when test="cda:value/@code='allergy' and cda:value/@codeSystem='2.16.840.1.113883.5.4'">allergy</xsl:when>
+                            <xsl:otherwise>intolerance</xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:attribute>
+                </type>
+                <!-- Test Absent or Unkown entry is present -->
+                <xsl:choose>
+                    <xsl:when test="cda:value[@codeSystem='2.16.840.1.113883.5.1150.1']">
+                        <code>
+                            <coding>
+                                <system value="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"/>
+                                <code>
+                                    <xsl:attribute name="value">
+                                        <xsl:value-of select="cda:value/@code"/>
+                                    </xsl:attribute>
+                                </code>
+                                <display>
+                                    <xsl:attribute name="value">
+                                        <xsl:value-of select="cda:value/@displayName"/>
+                                    </xsl:attribute>
+                                </display>
+                            </coding>
+                        </code>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates select="cda:participant[@typeCode='CSM']" mode="allergy"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+                
+                <xsl:call-template name="subject-reference">
+                    <xsl:with-param name="element-name">patient</xsl:with-param>
+                </xsl:call-template>
+                <xsl:apply-templates select="cda:effectiveTime" mode="allergy"/>
+            </AllergyIntolerance>
+        </xsl:for-each>
+    </xsl:template>
+    
+    
+    
+    
     <xsl:template match="cda:value" mode="reaction">
         <reaction>
             <xsl:call-template name="newCreateCodableConcept">
@@ -106,10 +163,23 @@
     </xsl:template>
     
     <xsl:template match="cda:statusCode" mode="allergy">
-        <!-- TODO: actually map the status codes, not always the same between CDA and FHIR --> 
-        <xsl:if test="@code">
-            <clinicalStatus value="{@code}"/>
-        </xsl:if>
+        <clinicalStatus>
+            <coding>
+                <system>
+                    <xsl:attribute name="value">http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical</xsl:attribute>
+                </system>
+                <code>
+                    <xsl:choose>
+                        <xsl:when test="@code='completed'">
+                            <xsl:attribute name="value">inactive</xsl:attribute>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:attribute name="value" select="'active'"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </code>
+            </coding>
+        </clinicalStatus>
     </xsl:template>
     
     <xsl:template match="cda:effectiveTime" mode="allergy">

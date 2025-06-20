@@ -132,13 +132,22 @@
     
     <xsl:template match="cda:serviceEvent" mode="composition-event">
         <event>
-            <xsl:comment>Add CCDA-on-FHIR-Performer extension after C-CDA on FHIR is published</xsl:comment>
-            
-            <xsl:for-each select="cda:performer">
-                <extension url="http://hl7.org/fhir/ccda/StructureDefinition/CCDA-on-FHIR-Performer">
-                    <valueReference><reference value="urn:uuid:{@lcg:uuid}"/></valueReference>
-                </extension>
-            </xsl:for-each>
+            <!-- Add CCDA-on-FHIR-Performer extension after C-CDA on FHIR is published
+                Not added When Document is IPS  -->
+                        
+            <xsl:choose>
+                <xsl:when test="ancestor::cda:ClinicalDocument/cda:templateId/@root='2.16.840.1.113883.10.22.1.1'">
+                    <!-- Nothing added when IPS  -->
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:comment>Add CCDA-on-FHIR-Performer extension after C-CDA on FHIR is published</xsl:comment> 
+                    <xsl:for-each select="cda:performer">
+                        <extension url="http://hl7.org/fhir/ccda/StructureDefinition/CCDA-on-FHIR-Performer">
+                            <valueReference><reference value="urn:uuid:{@lcg:uuid}"/></valueReference>
+                        </extension>
+                    </xsl:for-each>
+                </xsl:otherwise>  
+            </xsl:choose>
             <xsl:apply-templates select="cda:effectiveTime" mode="period"/>
             <!-- CarePlan resource not strictly needed for ONC-HIP use casem, but added at Clinician's on FHIR event.  -->
             <!--

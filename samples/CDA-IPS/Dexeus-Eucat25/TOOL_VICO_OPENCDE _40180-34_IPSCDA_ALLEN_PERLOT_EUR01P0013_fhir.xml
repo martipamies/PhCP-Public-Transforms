@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+   <identifier>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:uuid:bd28359f-878e-44ac-bbe9-16b3f6be235e"/>
+   </identifier>
+   <type value="document"/>
+   <timestamp value="2025-06-20T11:41:04.493307+02:00"/>
+   <entry>
+      <fullUrl value="urn:uuid:3254c4b8-ab68-42bc-87bd-b20a11ead227"/>
+      <resource>
+         <Composition>
+            <language value="en-GB"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document Id</span>
+                           </td>
+                           <td class="td_header_role_value">IPS_2025015763_3 2.16.840.1.113883.4.292.20.1.1.1.23</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document Created:</span>
+                           </td>
+                           <td class="td_header_role_value">June 19, 2025, 11:07 +0200 </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody><!--documentationOf/serviceEvent-->
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Care provision</span>
+                           </td>
+                           <td class="td_header_role_value">Service Event at June 19, 2025, 11:07 +0200 </td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Performer (primary care provider)</span>
+                           </td>
+                           <td class="td_header_role_value">Ricard Sabartés of Dexeus Mujer Barcelona</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody><!--Author-->
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Author</span>
+                           </td>
+                           <td class="td_header_role_value">Ricard Sabartés</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value"> Work Place:<br/>Gran Via de Carles III 71-75<br/>BARCELONA, BARCELONA 08028, ES<br/>Mail:  ricsab@dexeus.com<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Legal authenticator</span>
+                           </td>
+                           <td class="td_header_role_value">Ricard Sabartés of Dexeus Mujer Barcelona signed at June 19, 2025, 11:07 +0200 </td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">
+                              <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document maintained by</span>
+                           </td>
+                           <td class="td_header_role_value">Dexeus Mujer Barcelona</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value"> Work Place:<br/>Gran Via Carles III, 71-75<br/>Barcelona, Barcelona 08028, ES<br/>Tel:  932274727<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:3254c4b8-ab68-42bc-87bd-b20a11ead227"/>
+            </identifier>
+            <status value="final"/>
+            <type>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="60591-5"/>
+                  <display value="Patient Summary"/>
+               </coding>
+            </type>
+            <subject>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </subject>
+            <date value="2025-06-19T11:07:00+02:00"/>
+            <author>
+               <reference value="urn:uuid:0484c4d6-61ab-46f1-91ca-17358c59e715"/>
+            </author>
+            <title value="International Patient Summary."/>
+            <confidentiality value="N"/>
+            <attester>
+               <mode value="legal"/>
+               <time value="2025-06-19T11:07:00+02:00"/>
+               <party>
+                  <reference value="urn:uuid:b0268cac-5e26-459c-8350-f74d82e1a292"/>
+               </party>
+            </attester>
+            <custodian>
+               <reference value="urn:uuid:957194df-86ae-49f5-9344-ad099afad644"/>
+            </custodian>
+            <relatesTo>
+               <code value="transforms"/>
+               <targetIdentifier>
+                  <system value="urn:oid:2.16.840.1.113883.4.292.20.1.1.1.23"/>
+                  <value value="IPS_2025015763_3"/>
+               </targetIdentifier>
+            </relatesTo>
+            <event>
+               <period>
+                  <start value="2025-06-19T11:07:00+02:00"/>
+                  <end value="2025-06-19T11:07:00+02:00"/>
+               </period>
+            </event>
+            <section>
+               <title value="Medication Summary"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="10160-0"/>
+                     <display value="Medication Summary"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="generated"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <p>
+                        <span class="Bold">Currently active medications</span>
+                     </p>
+                     <table>
+                        <tbody>
+                           <tr>
+                              <th>
+                                 <span>Product and</span>
+                                 <br/>
+                                 <span>dose form</span>
+                              </th>
+                              <th>
+                                 <span>Dose and</span>
+                                 <br/>
+                                 <span>frequency</span>
+                              </th>
+                              <th>Route</th>
+                              <th>Duration</th>
+                              <th>Comments</th>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <span>CITALOPRAM CINFA EFG</span>
+                                 <br/>
+                                 <span>Tablet</span>
+                              </td>
+                              <td>
+                                 <span>1 Tablet</span>
+                                 <br/>
+                                 <span>each 1 day</span>
+                              </td>
+                              <td>
+                                 <span>Oral use</span>
+                              </td>
+                              <td>
+                                 <span>2025-06-06</span>
+                                 <br/>
+                                 <span>2026-04-17</span>
+                              </td>
+                              <td/>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <span>CETIRIZINA NORMON EFG</span>
+                                 <br/>
+                                 <span>Tablet</span>
+                              </td>
+                              <td>
+                                 <span>1 Tablet</span>
+                                 <br/>
+                                 <span>each 1 day</span>
+                              </td>
+                              <td>
+                                 <span>Oral use</span>
+                              </td>
+                              <td>
+                                 <span>2025-06-06</span>
+                                 <br/>
+                                 <span>2025-09-19</span>
+                              </td>
+                              <td/>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <span>PARACETAMOL MABOGEN EFG</span>
+                                 <br/>
+                                 <span>Tablet</span>
+                              </td>
+                              <td>
+                                 <span>1 Tablet</span>
+                                 <br/>
+                                 <span>each 8 hour</span>
+                              </td>
+                              <td>
+                                 <span>Oral use</span>
+                              </td>
+                              <td>
+                                 <span>2025-06-06</span>
+                                 <br/>
+                                 <span>2025-09-19</span>
+                              </td>
+                              <td/>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.4-->
+               <entry>
+                  <reference value="urn:uuid:81b5bdfb-08c8-4ad7-841c-5b4890d9d8d8"/>
+               </entry>
+               <!--2.16.840.1.113883.10.22.4.4-->
+               <entry>
+                  <reference value="urn:uuid:0c0e5364-fb0d-49cf-a654-3b306087cf03"/>
+               </entry>
+               <!--2.16.840.1.113883.10.22.4.4-->
+               <entry>
+                  <reference value="urn:uuid:9699b16c-d768-4101-b447-21755637126e"/>
+               </entry>
+            </section>
+            <section>
+               <title value="Allergies and Intolerances"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="48765-2"/>
+                     <display value="Allergies and adverse reactions"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="additional"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <p>
+                        <span class="Bold">Allergies and Intolerances</span>
+                     </p>
+                     <table>
+                        <tbody>
+                           <tr>
+                              <th>
+                                 <span>Date</span>
+                              </th>
+                              <th>
+                                 <span>Allergy</span>
+                              </th>
+                              <th>Comments</th>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <span>2025-06-06</span>
+                              </td>
+                              <td>
+                                 <span>Látex</span>
+                              </td>
+                              <td>
+                                 <span/>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.5-->
+               <entry>
+                  <reference value="urn:uuid:028ed1e6-a95a-4846-8c69-3f29a7036400"/>
+               </entry>
+            </section>
+            <section>
+               <title value="Active Problems"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="11450-4"/>
+                     <display value="Problem list"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="generated"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <table border="1PX">
+                        <tbody>
+                           <tr>
+                              <th>Problem</th>
+                              <th>Onset time</th>
+                           </tr>
+                           <tr>
+                              <td>Cardiopathy</td>
+                              <td>2013-12-22</td>
+                           </tr>
+                           <tr>
+                              <td>Rheumatoid arthritis</td>
+                              <td>2024-11-17</td>
+                           </tr>
+                           <tr>
+                              <td>Cataract</td>
+                              <td>2023-04-05</td>
+                           </tr>
+                           <tr>
+                              <td>Diabetes type 1</td>
+                              <td>2018-08-08</td>
+                           </tr>
+                           <tr>
+                              <td>Sleep disorder</td>
+                              <td>2005-10-20</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.7-->
+               <entry>
+                  <reference value="urn:uuid:a2e96364-bba3-4039-992d-4e751ca01bd0"/>
+               </entry>
+               <!--2.16.840.1.113883.10.22.4.7-->
+               <entry>
+                  <reference value="urn:uuid:68c8d6f4-c50d-472a-bc33-8bd8fab3b62b"/>
+               </entry>
+               <!--2.16.840.1.113883.10.22.4.7-->
+               <entry>
+                  <reference value="urn:uuid:a6ca6ca3-32b7-4201-b2b4-55da4cfb6ff8"/>
+               </entry>
+               <!--2.16.840.1.113883.10.22.4.7-->
+               <entry>
+                  <reference value="urn:uuid:568e7831-dab6-4db9-9bff-f52eb47f80c3"/>
+               </entry>
+               <!--2.16.840.1.113883.10.22.4.7-->
+               <entry>
+                  <reference value="urn:uuid:2ca882af-73c9-4a32-9161-1baaf0273981"/>
+               </entry>
+            </section>
+            <section>
+               <title value="Immunizations"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="11369-6"/>
+                     <display value="History of immunizations"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="generated"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <table>
+                        <tbody>
+                           <tr>
+                              <th>
+                                 <span>Date</span>
+                              </th>
+                              <th>
+                                 <span>Vaccine</span>
+                              </th>
+                              <th>
+                                 <span>Dose</span>
+                              </th>
+                              <th>
+                                 <span>Reference</span>
+                              </th>
+                              <th>
+                                 <span>Lot</span>
+                              </th>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <span>2025-02-17</span>
+                              </td>
+                              <td>
+                                 <span>Gripe ()</span>
+                              </td>
+                              <td>
+                                 <span>1</span>
+                              </td>
+                              <td>
+                                 <span>MNX2961</span>
+                              </td>
+                              <td>
+                                 <span>463715</span>
+                              </td>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <span>2021-02-16</span>
+                              </td>
+                              <td>
+                                 <span>Covid-19 ()</span>
+                              </td>
+                              <td>
+                                 <span>1</span>
+                              </td>
+                              <td>
+                                 <span>AN545142</span>
+                              </td>
+                              <td>
+                                 <span>32678548</span>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.15-->
+               <entry>
+                  <reference value="urn:uuid:b9df69d5-217a-4452-b0f6-44435579495c"/>
+               </entry>
+               <!--2.16.840.1.113883.10.22.4.15-->
+               <entry>
+                  <reference value="urn:uuid:170913d1-9875-4dec-8e92-f4281e1a38df"/>
+               </entry>
+            </section>
+         </Composition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+      <resource>
+         <Patient>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h1>PEROT ., ALLEN</h1>
+                  <p>Telecom: tel:34628901083</p>
+                  <p>Address: LANDSTRASSE, 4<br/>VIENNA<br/>VIENNA<br/>22181<br/>AT</p>
+                  <p>Gender: M</p>
+                  <p>Birthdate: 1963-02-18</p>
+               </div>
+            </text>
+            <extension url="http://hl7.org/fhir/StructureDefinition/patient-mothersMaidenName">
+               <valueString value="."/>
+            </extension>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.4.292.20.1.1.20.1"/>
+               <value value="2025015763"/>
+            </identifier>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.4.330"/>
+               <value value="EUR01P0013"/>
+            </identifier>
+            <name>
+               <text value="PEROT . , ALLEN"/>
+               <family value="PEROT"/>
+               <given value="ALLEN"/>
+            </name>
+            <telecom>
+               <system value="phone"/>
+               <value value="34628901083"/>
+            </telecom>
+            <gender value="male"/>
+            <birthDate value="1963-02-18"/>
+            <address>
+               <line value="LANDSTRASSE, 4"/>
+               <city value="VIENNA"/>
+               <state value="VIENNA"/>
+               <postalCode value="22181"/>
+               <country value="AT"/>
+            </address>
+         </Patient>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:0484c4d6-61ab-46f1-91ca-17358c59e715"/>
+      <resource>
+         <Practitioner><!--ClinicalDocument[cda:id[@root="2.16.840.1.113883.4.292.20.1.1.1.23"]]/author-->
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <p>Name: Sabartés Fortuny, Ricard</p>
+                  <p>---TODO: ID info---</p>
+                  <p>Telephone: mailto:ricsab@dexeus.com</p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.4.292.20.1.1.14.1"/>
+               <value value="RICSAB"/>
+            </identifier>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.2.19.10.8"/>
+               <value value="080837292"/>
+            </identifier>
+            <name>
+               <text value="Sabartés Fortuny , Ricard"/>
+               <family value="Sabartés"/>
+               <given value="Ricard"/>
+            </name>
+            <telecom>
+               <system value="email"/>
+               <value value="ricsab@dexeus.com"/>
+               <use value="work"/>
+            </telecom>
+            <address>
+               <use value="work"/>
+               <line value="Gran Via de Carles III 71-75"/>
+               <city value="BARCELONA"/>
+               <state value="BARCELONA"/>
+               <postalCode value="08028"/>
+               <country value="ES"/>
+            </address>
+            <qualification>
+               <code>
+                  <coding>
+                     <system value="http://nucc.org/provider-taxonomy"/>
+                     <code value="207V00000X"/>
+                  </coding>
+               </code>
+            </qualification>
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:957194df-86ae-49f5-9344-ad099afad644"/>
+      <resource>
+         <Organization>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:oid:2.16.840.1.113883.4.292.20.1.1"/>
+            </identifier>
+            <name value="Dexeus Mujer Barcelona"/>
+            <telecom>
+               <system value="phone"/>
+               <value value="932274727"/>
+               <use value="work"/>
+            </telecom>
+            <address>
+               <use value="work"/>
+               <line value="Gran Via Carles III, 71-75"/>
+               <city value="Barcelona"/>
+               <state value="Barcelona"/>
+               <postalCode value="08028"/>
+               <country value="ES"/>
+            </address>
+         </Organization>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:b0268cac-5e26-459c-8350-f74d82e1a292"/>
+      <resource>
+         <Practitioner><!--ClinicalDocument[cda:id[@root="2.16.840.1.113883.4.292.20.1.1.1.23"]]/legalAuthenticator-->
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <p>Name: Sabartés Fortuny, Ricard</p>
+                  <p>---TODO: ID info---</p>
+                  <p>Telephone: </p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.4.292.20.1.1.14.1"/>
+               <value value="RICSAB"/>
+            </identifier>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.2.19.10.8"/>
+               <value value="080837292"/>
+            </identifier>
+            <name>
+               <text value="Sabartés Fortuny , Ricard"/>
+               <family value="Sabartés"/>
+               <given value="Ricard"/>
+            </name>
+            <!--Omitting null telecom-->
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:81b5bdfb-08c8-4ad7-841c-5b4890d9d8d8"/>
+      <resource>
+         <MedicationRequest>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+            </meta>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.4.292.20.1.1.1.17"/>
+               <value value="PENDENT"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <medicationCodeableConcept>
+               <coding>
+                  <system value="urn:oid:2.16.724.4.21.5.15.4"/>
+                  <code value="232493"/>
+                  <display value="CITALOPRAM CINFA EFG 20 mg 56 COMPRIMIDOS RECUBIERTOS"/>
+               </coding>
+            </medicationCodeableConcept>
+            <subject>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </subject>
+            <authoredOn value="2025-06-19T11:07:00+02:00"/>
+            <requester>
+               <reference value="urn:uuid:0484c4d6-61ab-46f1-91ca-17358c59e715"/>
+            </requester>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+               </timing>
+               <route>
+                  <coding>
+                     <system value="http://fhir.de/CodeSystem/edqm"/>
+                     <code value="20053000"/>
+                  </coding>
+               </route>
+            </dosageInstruction>
+            <dispenseRequest>
+               <validityPeriod>
+                  <start value="2025-06-06"/>
+                  <end value="2026-04-17"/>
+               </validityPeriod>
+            </dispenseRequest>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:0c0e5364-fb0d-49cf-a654-3b306087cf03"/>
+      <resource>
+         <MedicationRequest>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+            </meta>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.4.292.20.1.1.1.17"/>
+               <value value="PENDENT"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <medicationCodeableConcept>
+               <coding>
+                  <system value="urn:oid:2.16.724.4.21.5.15.4"/>
+                  <code value="202474"/>
+                  <display value="CETIRIZINA NORMON EFG 10 mg 20 COMPRIMIDOS RECUBIERTOS"/>
+               </coding>
+            </medicationCodeableConcept>
+            <subject>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </subject>
+            <authoredOn value="2025-06-19T11:07:00+02:00"/>
+            <requester>
+               <reference value="urn:uuid:0484c4d6-61ab-46f1-91ca-17358c59e715"/>
+            </requester>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+               </timing>
+               <route>
+                  <coding>
+                     <system value="http://fhir.de/CodeSystem/edqm"/>
+                     <code value="20053000"/>
+                  </coding>
+               </route>
+            </dosageInstruction>
+            <dispenseRequest>
+               <validityPeriod>
+                  <start value="2025-06-06"/>
+                  <end value="2025-09-19"/>
+               </validityPeriod>
+            </dispenseRequest>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:9699b16c-d768-4101-b447-21755637126e"/>
+      <resource>
+         <MedicationRequest>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
+            </meta>
+            <identifier>
+               <system value="urn:oid:2.16.840.1.113883.4.292.20.1.1.1.17"/>
+               <value value="PENDENT"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <medicationCodeableConcept>
+               <coding>
+                  <system value="urn:oid:2.16.724.4.21.5.15.4"/>
+                  <code value="397096"/>
+                  <display value="PARACETAMOL MABOGEN EFG 1 g 40 COMPRIMIDOS"/>
+               </coding>
+            </medicationCodeableConcept>
+            <subject>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </subject>
+            <authoredOn value="2025-06-19T11:07:00+02:00"/>
+            <requester>
+               <reference value="urn:uuid:0484c4d6-61ab-46f1-91ca-17358c59e715"/>
+            </requester>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <period value="8"/>
+                     <periodUnit value="h"/>
+                  </repeat>
+               </timing>
+               <route>
+                  <coding>
+                     <system value="http://fhir.de/CodeSystem/edqm"/>
+                     <code value="20053000"/>
+                  </coding>
+               </route>
+            </dosageInstruction>
+            <dispenseRequest>
+               <validityPeriod>
+                  <start value="2025-06-06"/>
+                  <end value="2025-09-19"/>
+               </validityPeriod>
+            </dispenseRequest>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:028ed1e6-a95a-4846-8c69-3f29a7036400"/>
+      <resource>
+         <AllergyIntolerance>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <type value="intolerance"/>
+            <code>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.4.292.20.1.1.31.1"/>
+                  <code value="Látex"/>
+                  <display value="Látex"/>
+               </coding>
+            </code>
+            <patient>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </patient>
+            <onsetDateTime value="2025-06-06"/>
+         </AllergyIntolerance>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:a2e96364-bba3-4039-992d-4e751ca01bd0"/>
+      <resource>
+         <Condition>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:96D99B62-169D-43F4-B0F1-CD7DE4576603"/>
+            </identifier>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="75326-9"/>
+                  <display value="Problem"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.5"/>
+                  <code value="56265001"/>
+                  <display value="Cardiopathy"/>
+               </coding>
+               <text value="Cardiopathy"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </subject>
+            <onsetDateTime value="2013-12-22"/>
+         </Condition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:68c8d6f4-c50d-472a-bc33-8bd8fab3b62b"/>
+      <resource>
+         <Condition>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:96D99B62-169D-43F4-B0F1-CD7DE4576603"/>
+            </identifier>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="75326-9"/>
+                  <display value="Problem"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.5"/>
+                  <code value="276200009"/>
+                  <display value="Rheumatoid arthritis"/>
+               </coding>
+               <text value="Rheumatoid arthritis"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </subject>
+            <onsetDateTime value="2024-11-17"/>
+         </Condition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:a6ca6ca3-32b7-4201-b2b4-55da4cfb6ff8"/>
+      <resource>
+         <Condition>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:96D99B62-169D-43F4-B0F1-CD7DE4576603"/>
+            </identifier>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="75326-9"/>
+                  <display value="Problem"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.5"/>
+                  <code value="193570009"/>
+                  <display value="Cataract"/>
+               </coding>
+               <text value="Cataract"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </subject>
+            <onsetDateTime value="2023-04-05"/>
+         </Condition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:568e7831-dab6-4db9-9bff-f52eb47f80c3"/>
+      <resource>
+         <Condition>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:96D99B62-169D-43F4-B0F1-CD7DE4576603"/>
+            </identifier>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="75326-9"/>
+                  <display value="Problem"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.5"/>
+                  <code value="46635009"/>
+                  <display value="Diabetes type 1"/>
+               </coding>
+               <text value="Diabetes type 1"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </subject>
+            <onsetDateTime value="2018-08-08"/>
+         </Condition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:2ca882af-73c9-4a32-9161-1baaf0273981"/>
+      <resource>
+         <Condition>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:96D99B62-169D-43F4-B0F1-CD7DE4576603"/>
+            </identifier>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="75326-9"/>
+                  <display value="Problem"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.5"/>
+                  <code value="39898005"/>
+                  <display value="Sleep disorder"/>
+               </coding>
+               <text value="Sleep disorder"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </subject>
+            <onsetDateTime value="2005-10-20"/>
+         </Condition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:b9df69d5-217a-4452-b0f6-44435579495c"/>
+      <resource>
+         <Immunization>
+            <identifier>
+               <system value="urn:uuid:4a9c441d-ddde-4acf-9140-8071b08e4190"/>
+               <value value="#VAC.72903"/>
+            </identifier>
+            <status value="completed"/>
+            <vaccineCode>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="86198006"/>
+                  <display value="Administration of influenza vaccine"/>
+               </coding>
+            </vaccineCode>
+            <patient>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </patient>
+            <occurrenceDateTime value="2025-02-17"/>
+            <doseQuantity>
+               <value value="1"/>
+            </doseQuantity>
+         </Immunization>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:170913d1-9875-4dec-8e92-f4281e1a38df"/>
+      <resource>
+         <Immunization>
+            <identifier>
+               <system value="urn:uuid:4a9c441d-ddde-4acf-9140-8071b08e4190"/>
+               <value value="#VAC.72902"/>
+            </identifier>
+            <status value="completed"/>
+            <vaccineCode>
+               <coding>
+                  <system value="http://snomed.info/sct"/>
+                  <code value="840534001"/>
+                  <display value="Administration of SARS-CoV-2 antigen vaccine"/>
+               </coding>
+            </vaccineCode>
+            <patient>
+               <reference value="urn:uuid:88d3a84a-ce58-4e9e-ab10-303b1a1c8e9d"/>
+            </patient>
+            <occurrenceDateTime value="2021-02-16"/>
+            <doseQuantity>
+               <value value="1"/>
+            </doseQuantity>
+         </Immunization>
+      </resource>
+   </entry>
+</Bundle>

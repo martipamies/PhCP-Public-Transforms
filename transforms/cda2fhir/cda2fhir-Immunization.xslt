@@ -39,8 +39,7 @@
 
     </xsl:template>
     -->
-    
-    
+      
     <xsl:template match="cda:substanceAdministration[cda:templateId/@root='2.16.840.1.113883.10.20.22.4.52'][@moodCode='EVN']">
         <Immunization>
             <xsl:call-template name="add-meta"/>
@@ -79,7 +78,36 @@
         </Immunization>
     </xsl:template>
     
-    <xsl:template match="cda:doseQuantity" mode="immunization">
+    <!-- CDA IPS IPS Immunization
+        https://art-decor.org/ad/#/hl7ips-/rules/templates/2.16.840.1.113883.10.22.4.15/2024-08-04T21:20:24
+    -->
+    <xsl:template match="cda:substanceAdministration[cda:templateId/@root='2.16.840.1.113883.10.22.4.15'][@moodCode='EVN']" mode="bundle-entry">
+        <xsl:call-template name="create-bundle-entry"/>
+    </xsl:template>
+    <xsl:template match="cda:substanceAdministration[cda:templateId/@root='2.16.840.1.113883.10.22.4.15'][@moodCode='EVN']">
+        <Immunization>
+            <xsl:call-template name="add-meta"/>
+            <xsl:apply-templates select="cda:id"/>
+            
+            <!-- CDA IPS statusCode Fixed: @code = completed  -->
+            <status value="completed"/>
+            
+            <xsl:apply-templates select="cda:consumable" mode="immunization"/>
+            
+            <xsl:call-template name="subject-reference">
+                <xsl:with-param name="element-name">patient</xsl:with-param>
+            </xsl:call-template>
+            
+            <xsl:apply-templates select="cda:effectiveTime" mode="instant">
+                <xsl:with-param name="elementName">occurrenceDateTime</xsl:with-param>
+            </xsl:apply-templates>      
+            
+            <xsl:apply-templates select="cda:entryRelationship/cda:observation/cda:value" mode="immunization"/>
+
+        </Immunization>
+    </xsl:template>
+    
+    <xsl:template match="cda:value" mode="immunization">
         <doseQuantity>
             <xsl:if test="@value">
                 <value value="{@value}"/>

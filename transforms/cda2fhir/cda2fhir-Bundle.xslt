@@ -19,6 +19,11 @@
                 <value value="urn:uuid:{cda:ClinicalDocument/cda:id/@lcg:uuid}"/>
             </identifier>
             <type value="document"/>
+            <timestamp>
+                <xsl:attribute name="value">
+                    <xsl:value-of select="current-dateTime()"/>
+                </xsl:attribute>
+            </timestamp>
             <xsl:apply-templates select="cda:ClinicalDocument" mode="bundle-entry"/>
             <xsl:apply-templates select="cda:ClinicalDocument/cda:recordTarget" mode="bundle-entry"/>
             <!-- CarePlan resource not needed for ONC-HIP use case. Revisit later. -->
@@ -26,10 +31,18 @@
             <xsl:apply-templates select="cda:ClinicalDocument/cda:documentationOf/cda:serviceEvent" mode="bundle-entry"/>
             -->
             <xsl:apply-templates select="cda:ClinicalDocument/cda:componentOf/cda:encompassingEncounter" mode="bundle-entry"/>
-            <xsl:apply-templates select="//cda:author" mode="bundle-entry"/>
-            <xsl:apply-templates select="//cda:performer" mode="bundle-entry"/>
-            <xsl:apply-templates select="//cda:participant[@typeCode='IRCP']" mode="bundle-entry"/>
-            <xsl:apply-templates select="//cda:performer/cda:assignedEntity/cda:representedOrganization" mode="bundle-entry"/>
+            <!-- if input is CDA IPS just add ClinicalDocument/author, if not as it was -->
+            <xsl:choose>
+                <xsl:when test="cda:ClinicalDocument/cda:templateId/@root='2.16.840.1.113883.10.22.1.1'">
+                    <xsl:apply-templates select="cda:ClinicalDocument/cda:author" mode="bundle-entry"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates select="//cda:author" mode="bundle-entry"/>
+                    <xsl:apply-templates select="//cda:performer" mode="bundle-entry"/>
+                    <xsl:apply-templates select="//cda:participant[@typeCode='IRCP']" mode="bundle-entry"/>
+                    <xsl:apply-templates select="//cda:performer/cda:assignedEntity/cda:representedOrganization" mode="bundle-entry"/>
+                </xsl:otherwise>
+            </xsl:choose>
             <xsl:apply-templates select="cda:ClinicalDocument/cda:custodian" mode="bundle-entry"/>
             <xsl:apply-templates select="cda:ClinicalDocument/cda:legalAuthenticator" mode="bundle-entry"/>
             <xsl:message>TODO: Add remaining header resources</xsl:message>

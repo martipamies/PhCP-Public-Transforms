@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns="http://hl7.org/fhir">
+   <identifier>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:uuid:85f36239-770a-42ae-9660-da41b661532a"/>
+   </identifier>
+   <type value="document"/>
+   <timestamp value="2025-05-28T20:20:21.9112529+02:00"/>
+   <entry>
+      <fullUrl value="urn:uuid:b2eaa552-1171-4bef-8b55-d054cde84c9c"/>
+      <resource>
+         <Composition>
+            <language value="en-GB"/>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document Id</span>
+                           </td>
+                           <td class="td_header_role_value">47461740495269860 2.16.724.4.9.400.1</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document Created:</span>
+                           </td>
+                           <td class="td_header_role_value">February 25, 2025, 15:54:29 +0100 </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody><!--documentationOf/serviceEvent-->
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Care provision</span>
+                           </td>
+                           <td class="td_header_role_value">Service Event from November 1, 1947  to ,  </td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Performer (primary care provider)</span>
+                           </td>
+                           <td class="td_header_role_value">Departament de Salut</td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody><!--Author-->
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Author</span>
+                           </td>
+                           <td class="td_header_role_value">Història Clínica Compartida de Catalunya</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">
+                              <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody><!--participant-->
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Personal relationship</span>
+                           </td>
+                           <td class="td_header_role_value">PCPDepartament de Salut<br/>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">
+                              <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Legal authenticator</span>
+                           </td>
+                           <td class="td_header_role_value">Manel Balcells of Departament de Salut signed at February 25, 2025, 15:54:29 +0100 </td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">
+                              <br/>
+                              <br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                  <table class="header_table"
+                         style="border: 1pt inset #00008b; line-height: 10pt; width: 100%;">
+                     <tbody>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Document maintained by</span>
+                           </td>
+                           <td class="td_header_role_value">Departament de Salut</td>
+                        </tr>
+                        <tr>
+                           <td class="td_header_role_name"
+                               style="width: 20%; background-color: #3399ff; padding: 0.1cm 0.2cm; vertical-align: top; background-color: #ffffcc;">
+                              <span class="td_label">Contact info</span>
+                           </td>
+                           <td class="td_header_role_value">Travessera De Les Corts, 131-159 (pavelló Ave Maria)<br/>Barcelona, Barcelona 08028, ES<br/>Tel:  +34932272900<br/>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:b2eaa552-1171-4bef-8b55-d054cde84c9c"/>
+            </identifier>
+            <status value="final"/>
+            <type>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="60591-5"/>
+                  <display value="Patient Summary"/>
+               </coding>
+            </type>
+            <subject>
+               <reference value="urn:uuid:59444eb2-11e7-4465-95e6-1d5099a28306"/>
+            </subject>
+            <date value="2025-02-25T15:54:00+01:00"/>
+            <author>
+               <reference value="urn:uuid:0c90d905-a742-44e1-aece-c2949abf13d9"/>
+            </author>
+            <title value="European Patient Summary"/>
+            <confidentiality value="N"/>
+            <attester>
+               <mode value="legal"/>
+               <time value="2025-02-25T15:54:00+01:00"/>
+               <party>
+                  <reference value="urn:uuid:f8105206-7954-4628-bbd9-b1117d7e8497"/>
+               </party>
+            </attester>
+            <custodian>
+               <reference value="urn:uuid:417c0b32-cf99-45af-8321-5ebde4466311"/>
+            </custodian>
+            <relatesTo>
+               <code value="transforms"/>
+               <targetIdentifier>
+                  <system value="urn:oid:2.16.724.4.9.400.1"/>
+                  <value value="47461740495269860"/>
+               </targetIdentifier>
+            </relatesTo>
+            <event>
+               <period>
+                  <start value="1947-11-01"/>
+               </period>
+            </event>
+            <section>
+               <title value="Allergies and Intolerances"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="48765-2"/>
+                     <display value="Allergies and adverse reactions"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="additional"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <p>
+                        <span class="Bold">Allergies and Intolerances</span>
+                     </p>
+                     <table>
+                        <tbody>
+                           <tr>
+                              <th>
+                                 <span>Date</span>
+                              </th>
+                              <th>
+                                 <span>Allergy</span>
+                              </th>
+                              <th>Comments</th>
+                           </tr>
+                           <tr>
+                              <td>
+                                 <span>2016-07-12</span>
+                              </td>
+                              <td>
+                                 <span>Pelo de gato</span>
+                              </td>
+                              <td>
+                                 <span/>
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.5-->
+               <entry>
+                  <reference value="urn:uuid:679d2ae4-ea5a-4216-a7cc-f226b128e323"/>
+               </entry>
+            </section>
+            <section>
+               <title value="History of Past Illness"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="11348-0"/>
+                     <display value="History of Past Illness"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="additional"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <table>
+                        <tbody>
+                           <tr>
+                              <th>Problem</th>
+                              <th>Onset time</th>
+                              <th>End date</th>
+                              <th>Resolution circumstances</th>
+                           </tr>
+                           <tr>
+                              <td>ICD_9_CM 465.0 Acute laryngopharyngitis</td>
+                              <td>2020-01-21</td>
+                              <td>2022-11-21</td>
+                              <td>No Disponible</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.7-->
+               <entry>
+                  <reference value="urn:uuid:bea31c73-7e2f-409c-83dd-3f1f382ee29c"/>
+               </entry>
+            </section>
+            <section>
+               <title value="Active Problems"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="11450-4"/>
+                     <display value="Problem list"/>
+                  </coding>
+               </code>
+               <text>
+                  <status value="additional"/>
+                  <div xmlns="http://www.w3.org/1999/xhtml">
+                     <table>
+                        <tbody>
+                           <tr>
+                              <th>Problem</th>
+                              <th>Onset time</th>
+                           </tr>
+                           <tr>
+                              <td>ICD_9_CM 460 Acute nasopharyngitis [common cold]</td>
+                              <td>2022-11-21</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </div>
+               </text>
+               <!--2.16.840.1.113883.10.22.4.7-->
+               <entry>
+                  <reference value="urn:uuid:393594d1-b822-4116-b903-cd6a654205ee"/>
+               </entry>
+            </section>
+         </Composition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:59444eb2-11e7-4465-95e6-1d5099a28306"/>
+      <resource>
+         <Patient>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <h1>Planella, Josefa</h1>
+                  <p>Address: Cr Bassa 31<br/>Torrelameu<br/>ES<br/>25138</p>
+                  <p>Gender: F</p>
+                  <p>Birthdate: 1947-11-01</p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:oid:2.16.724.4.40"/>
+               <value value="BBBBBBBBBZ219621"/>
+            </identifier>
+            <identifier>
+               <system value="urn:oid:2.16.724.4.41"/>
+               <value value="PLMO1471101002"/>
+            </identifier>
+            <identifier>
+               <system value="urn:oid:1.3.6.1.4.1.19126.3"/>
+               <value value="78049696R"/>
+            </identifier>
+            <name>
+               <text value="Planella, Josefa"/>
+               <family value="Planella"/>
+               <given value="Josefa"/>
+            </name>
+            <!--Omitting null telecom-->
+            <gender value="female"/>
+            <birthDate value="1947-11-01"/>
+            <address>
+               <use value="home"/>
+               <line value="Cr Bassa 31"/>
+               <city value="Torrelameu"/>
+               <state value="ES"/>
+               <postalCode value="25138"/>
+            </address>
+         </Patient>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:0c90d905-a742-44e1-aece-c2949abf13d9"/>
+      <resource>
+         <Practitioner><!--ClinicalDocument[cda:id[@root="2.16.724.4.9.400.1"]]/author-->
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <p>---TODO: ID info---</p>
+                  <p>Telephone: </p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:oid:2.16.724.4.9.400.1"/>
+            </identifier>
+            <!--Omitting null telecom-->
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:417c0b32-cf99-45af-8321-5ebde4466311"/>
+      <resource>
+         <Organization>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:oid:2.16.724.4.9.400.1"/>
+            </identifier>
+            <name value="Departament de Salut"/>
+            <telecom>
+               <system value="phone"/>
+               <value value="+34932272900"/>
+               <use value="work"/>
+            </telecom>
+            <address>
+               <line value="Travessera De Les Corts, 131-159 (pavelló Ave Maria)"/>
+               <city value="Barcelona"/>
+               <state value="Barcelona"/>
+               <postalCode value="08028"/>
+               <country value="ES"/>
+            </address>
+         </Organization>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:f8105206-7954-4628-bbd9-b1117d7e8497"/>
+      <resource>
+         <Practitioner><!--ClinicalDocument[cda:id[@root="2.16.724.4.9.400.1"]]/legalAuthenticator-->
+            <meta>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
+            </meta>
+            <text>
+               <status value="generated"/>
+               <div xmlns="http://www.w3.org/1999/xhtml">
+                  <p>Name: Balcells, Manel</p>
+                  <p>---TODO: ID info---</p>
+                  <p>Telephone: </p>
+               </div>
+            </text>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:oid:2.16.724.4.9.400.1"/>
+            </identifier>
+            <name>
+               <text value="Balcells, Manel"/>
+               <family value="Balcells"/>
+               <given value="Manel"/>
+            </name>
+            <!--Omitting null telecom-->
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:679d2ae4-ea5a-4216-a7cc-f226b128e323"/>
+      <resource>
+         <AllergyIntolerance>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <type value="intolerance"/>
+            <!--Should be no category here-->
+            <code>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.5.4.9999999999999999"/>
+                  <code value="PeloGatoId"/>
+                  <display value="Pelo de Gato"/>
+               </coding>
+            </code>
+            <patient>
+               <reference value="urn:uuid:59444eb2-11e7-4465-95e6-1d5099a28306"/>
+            </patient>
+            <onsetDateTime value="2016-07-12"/>
+         </AllergyIntolerance>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:bea31c73-7e2f-409c-83dd-3f1f382ee29c"/>
+      <resource>
+         <Condition>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:178E1A7F-8304-4978-ADCE-34FF0B231BF9"/>
+            </identifier>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                  <code value="resolved"/>
+               </coding>
+            </clinicalStatus>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="75326-9"/>
+                  <display value="Problem"/>
+               </coding>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/icd9cm"/>
+                  <code value="465.0"/>
+                  <display value="Acute laryngopharyngitis"/>
+               </coding>
+               <text value="ICD_9_CM 465.0 Acute laryngopharyngitis"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:59444eb2-11e7-4465-95e6-1d5099a28306"/>
+            </subject>
+            <onsetDateTime value="2020-01-21"/>
+            <abatementDateTime value="2022-11-21"/>
+         </Condition>
+      </resource>
+   </entry>
+   <entry>
+      <fullUrl value="urn:uuid:393594d1-b822-4116-b903-cd6a654205ee"/>
+      <resource>
+         <Condition>
+            <identifier>
+               <system value="urn:ietf:rfc:3986"/>
+               <value value="urn:uuid:FC634DFB-FA3E-40C6-9ACF-999DB9F833B1"/>
+            </identifier>
+            <clinicalStatus>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+                  <code value="active"/>
+               </coding>
+            </clinicalStatus>
+            <category>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="75326-9"/>
+                  <display value="Problem"/>
+               </coding>
+               <text value="ICD_9_CM 460 Acute nasopharyngitis [common cold]"/>
+            </category>
+            <code>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/icd9cm"/>
+                  <code value="460"/>
+                  <display value="Acute nasopharyngitis [common cold]"/>
+               </coding>
+               <text value="ICD_9_CM 460 Acute nasopharyngitis [common cold]"/>
+            </code>
+            <subject>
+               <reference value="urn:uuid:59444eb2-11e7-4465-95e6-1d5099a28306"/>
+            </subject>
+            <onsetDateTime value="2022-11-21"/>
+         </Condition>
+      </resource>
+   </entry>
+</Bundle>
